@@ -12,15 +12,7 @@ export const Header = () => {
             numerous projects across products like DIGIT, CQube, Sunbird, UCI, and more!
           </p>
           <p className="text-base text-slate-800 leading-relaxed mb-4">
-            To explore projects in detail, visit the{' '}
-            <a
-              href="https://github.com/C4GT"
-              className="text-slate-800 hover:text-gray-200 font-medium ml-2 underline"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              C4GT GitHub Wiki
-            </a>
+            To explore projects in detail, visit the
           </p>
           <a
             href="https://github.com/C4GT"

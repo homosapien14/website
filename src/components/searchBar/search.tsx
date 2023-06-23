@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { techStack } from "../../assests/constant/constants";
 interface SearchBarProps {
   productList: {
     title: string;
@@ -64,7 +64,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ productList, onSearch }) => {
 
   return (
     <div className="flex flex-col space-y-4 md:flex-row md:items-center md:justify-between mb-8">
-      <div className="flex flex-col md:flex-row md:space-x-2 mt-2">
+      <div className="flex flex-col md:flex-row md:space-x-2 mt-2 lg:w-4/6">
         <input
           type="text"
           className="w-full md:w-full shadow-lg  px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -79,10 +79,9 @@ const SearchBar: React.FC<SearchBarProps> = ({ productList, onSearch }) => {
           Search
         </button>
       </div>
-      <div className="flex flex-wrap ">
-        <span className="mr-2 mt-2 lg:mt-0 font-medium ">Filter by Tech Stack:</span>
+      <div className="flex flex-wrap lg:ml-8">
         <button
-          className={`px-3 py-1 mr-2 mt-2 lg:mt-0 text-sm rounded-lg ${
+          className={`px-3 py-1 mr-2 mt-2 text-sm rounded-lg ${
             selectedTechStack.length === 0
               ? "bg-blue-500 text-white"
               : "bg-gray-200 text-gray-800"
@@ -94,11 +93,11 @@ const SearchBar: React.FC<SearchBarProps> = ({ productList, onSearch }) => {
         >
           All
         </button>
-        {["Java", "Spring Boot", "Node.js", "Python", "HTML", "React"].map(
+        {techStack.map(
           (tech) => (
             <button
               key={tech}
-              className={`px-3 py-1 mt-2 lg:mt-0 mr-2 text-sm rounded-lg ${
+              className={`px-3 py-1 mt-2 mr-2 text-sm rounded-lg ${
                 selectedTechStack.includes(tech)
                   ? "bg-blue-500 text-white"
                   : "bg-gray-200 text-gray-800"
