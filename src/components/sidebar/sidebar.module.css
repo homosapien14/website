@@ -1,0 +1,13 @@
+.sidebar {
+   background-color:  var(--dark);
+    height: 100vh;
+}
+.textGray {
+    color: var(--gray)
+}
+.avatar {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    margin:15% auto;
+}
