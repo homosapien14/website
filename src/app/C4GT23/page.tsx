@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { ProductList, Header } from "@component/components";
+import { ProductList, Header } from "../../components/";
 import { productList } from "../../assests/constant/constants";
 import styles from "./C4GT23.module.css";
 
