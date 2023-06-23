@@ -1,0 +1,5 @@
+.profileContainer {
+    color: var(--white);
+    background-color: var(--dark);
+    padding: 30px 60px;
+}
