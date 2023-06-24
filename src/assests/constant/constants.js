@@ -215,6 +215,94 @@ export const productList =  [
       techStack: ['Java' ,'React' ],
       githubLink: 'https://github.com/Code4GovTech/C4GT/wiki/Sunbird-Saral',
     },
+    {
+      title: 'Sunbird UCI',
+      description:
+        'UCI aims to democratize the use of different communication channels such as WhatsApp, SMS, email and more to make conversation flow creation configurable and reduce the coding required for enabling the similar use-cases',
+      projectCount: 4,
+      techStack: ['Java' , 'React' ,'Javascript' , 'Typescript' , 'Minio'],
+      githubLink: 'https://github.com/Code4GovTech/C4GT/wiki/Sunbird-RC',
+    },
+    {
+      title: 'Template creation portal',
+      description:
+        'This portal enables creators, create templates of micro-improvement (a digital project plan with tasks) that can be picked up and worked upon by users to achieve certain goals as outlined in the project plan.',
+      projectCount: 1,
+      techStack: ['Angular' , 'Ionic' , 'MongoDB', 'NodeJs' , 'HTML' , 'CSS'],
+      githubLink: 'https://github.com/Code4GovTech/C4GT23/wiki/Template-Creation-Portal',
+    },
+    {
+      title: 'Text2SQL',
+      description:
+        'Text2SQL is an application that allows users to interact with their data using natural language queries. It provides APIs to generate the appropriate query (SQL or otherwise) and return the data you need.',
+      projectCount: 1,
+      techStack: ['Java' , 'React'],
+      githubLink: 'https://github.com/Code4GovTech/C4GT/wiki/Text2SQL',
+    },
+    {
+      title: 'TrustBot & POSHPal',
+      description:
+        'TrustBot and POSHpal are WhatsApp (public) and product (private) based chatbots that enable survivors to access information about domestic violence and workplace sexual harassment, so they can make informed decisions and access legal support.',
+      projectCount: 1,
+      techStack: ['Angular8'],
+      githubLink: 'https://github.com/Code4GovTech/C4GT23/wiki/TrustBot-and-POSHpal',
+    },
+    {
+      title: 'TrustIn',
+      description:
+        'Trustin is a platform that enables companies to create a safe workplace by implementing fair and effective redressal of workplace misconduct. It encompasses all labour, civil, and service laws and integrates unbiased support structures for employees to educate, escalate, and advocate for themselves. ',
+      projectCount: 1,
+      techStack: ['Java' , 'SpringBoot','Angular8'],
+      githubLink: 'https://github.com/Code4GovTech/C4GT23/wiki/TrustIn',
+    },
+    {
+      title: 'Unnati',
+      description:
+        'Unnati is a mobile/web application that helps anyone define a digital project, create a plan, and break their journey into a set of tasks that ultimately help them achieve their goal. It is being used in DIKSHA by teachers to create & manage digital projects',
+      projectCount: 1,
+      techStack: ['Angular' , 'Ionic' , 'MongoDB' , 'NodeJs' , 'HTML' , 'CSS'],
+      githubLink: 'https://github.com/Code4GovTech/C4GT23/wiki/Unnati',
+    },
+    {
+      title: 'WarpSQL',
+      description:
+        'Opinionated extensions to Postgres packaged as a single docker deployment. It allows for a quick stable installation of all plugins to speed up installation and management of your Postgres instance.',
+      projectCount: 1,
+      techStack: ['Dockerfile' , 'Shell Scripting' , 'Linux' ,'Ansible'],
+      githubLink: 'https://github.com/Code4GovTech/C4GT/wiki/WarpSQL',
+    },
+    {
+      title: 'Workflow',
+      description:
+        'Workflow is a complete package that allows you to deploy an application with authentication, database, backend, storage service, frontend and enketo forms with just a single command. Enketo has been used globally for clinical research, election monitoring & more',
+      projectCount: 1,
+      techStack: ['React' , 'Redux' , 'XState' , 'Local Forge'],
+      githubLink: 'https://github.com/Code4GovTech/C4GT23/wiki/Workflow',
+    },
+    {
+      title: 'YAUS',
+      description:
+        'Yaus is a batteries included URL Shortener that is designed for speed and scalability. It powers  shorturls across multiple projects and is helpful to get important information out to billions of users through SMSs, ensuring we dont exceed the SMS character limits',
+      projectCount: 1,
+      techStack: ['Typescrcipt' , 'Nx' ,  'ReactJS' , 'NestJS' , 'Hasura'],
+      githubLink: 'https://github.com/Code4GovTech/C4GT/wiki/Yaus',
+    },
+    {
+      title: 'Avni',
+      description:
+        'Avni is an open-source platform for community service provisioning. Using Avni, organisations can easily create applications for their fieldwork programs for managing their interactions with community members, recording and reviewing community members data. ',
+      projectCount: 1,
+      techStack: ['Java','React'],
+      githubLink: 'https://github.com/Code4GovTech/C4GT/wiki/Avni',
+    },
+    {
+      title: 'Bahmini',
+      description:
+        'Bahmni is an easy-to-use, complete, open-source Hospital Information System (HIS) and Electronic Medical Record (EMR) that aims to meet the needs of low-resource environments by leveraging a tapestry of existing open-source products. ',
+      projectCount: 4,
+      techStack: ['Flutter' , 'Dart' , 'Material UI' , 'Java' , 'MySQL' , 'Docker' , 'ReactJS' ],
+      githubLink: 'https://github.com/Code4GovTech/C4GT/wiki/Bahmni',
+    },
 
 ];
 
