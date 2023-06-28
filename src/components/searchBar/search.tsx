@@ -64,7 +64,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ productList, onSearch }) => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row  md:justify-between mb-10">
+    <div className="flex flex-col space-y-6 md:space-y-0 md:flex-row  md:justify-between mb-10">
       <div className="flex flex-wrap  w-full md:w-7/12">
         <button
           className={`w-auto px-3 py-1 mr-2 mt-2 text-sm rounded-lg ${
@@ -93,7 +93,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ productList, onSearch }) => {
           </button>
         ))}
       </div>
-      <div className="flex flex-col md:flex-row md:space-x-1 md:items-center sm:mt-2 md:mt-0 w-full md:w-5/12">
+      <div className="flex flex-col space-y-2  md:space-y-0 md:flex-row md:space-x-1  md:items-center  w-full md:w-5/12">
         <input
           type="text"
           className="w-full  shadow-lg py-2.5 px-3  text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -102,7 +102,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ productList, onSearch }) => {
           onChange={(e) => setSearchText(e.target.value)}
         />
         <button
-          className="w-full md:w-auto sm:mt-3 py-2.5 px-3  md:mt-0 p-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 hover:shadow-2xl"
+          className="w-full md:w-auto py-2.5 px-3  p-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 hover:shadow-2xl"
           onClick={handleSearch}
         >
           Search
