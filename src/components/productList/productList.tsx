@@ -20,7 +20,7 @@ export const ProductList: React.FC<ProductListProps> = ({ productList }) => {
   };
 
   return (
-    <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="container mt-14 mx-auto px-4 sm:px-6 lg:px-8">
       <h1 className="text-3xl text-center font-bold text-slate-800 mb-8 font-display">
         C4GT 2023 Projects
       </h1>
@@ -31,7 +31,7 @@ export const ProductList: React.FC<ProductListProps> = ({ productList }) => {
       {searchResult.length === 0 ? (
         <p className="text-center text-gray-600 mt-8">No Projects found</p>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 auto-rows-auto md:grid-cols-2 lg:grid-cols-3 gap-4">
           {searchResult.map((product, index) => (
             <ProductCard product={product} key={index} />
           ))}
