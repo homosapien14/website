@@ -1,5 +1,7 @@
 import React from 'react';
 import styles from './header.module.css';
+import Image from 'next/image';
+import C4GTImage from '../../assets/images/C4GT-Image.webp';
 
 export const Header = () => {
   return (
@@ -24,9 +26,9 @@ export const Header = () => {
           </a>
         </div>
         <div className="w-full lg:w-1/2 mt-4">
-          <img
+          <Image
             className="w-full h-2/4 object-cover"
-            src="https://static.wixstatic.com/media/060b0c_8029055ce0074bfaa4bb6d9f1c2c33d2~mv2.png/v1/fill/w_1250,h_1544,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/060b0c_8029055ce0074bfaa4bb6d9f1c2c33d2~mv2.png"
+            src={C4GTImage}
             alt="Open Source Project Community"
           />
         </div>
