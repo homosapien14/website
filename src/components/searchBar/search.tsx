@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { techStack } from "../../assests/constant/constants";
+import { techStack } from "../../assets/constants";
+
 interface SearchBarProps {
   productList: {
     title: string;
@@ -63,25 +64,10 @@ const SearchBar: React.FC<SearchBarProps> = ({ productList, onSearch }) => {
   };
 
   return (
-    <div className="flex flex-col space-y-4 md:flex-row md:items-center md:justify-between mb-8">
-      <div className="flex flex-col md:flex-row md:space-x-2 mt-2 lg:w-4/6">
-        <input
-          type="text"
-          className="w-full md:w-full shadow-lg  px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-          placeholder="Search by title, tech stack, or project count"
-          value={searchText}
-          onChange={(e) => setSearchText(e.target.value)}
-        />
+    <div className="flex flex-col md:flex-row  md:justify-between mb-10">
+      <div className="flex flex-wrap  w-full md:w-7/12">
         <button
-          className="w-full mt-3 lg:mt-0 md:w-auto px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 hover:shadow-2xl"
-          onClick={handleSearch}
-        >
-          Search
-        </button>
-      </div>
-      <div className="flex flex-wrap lg:ml-8">
-        <button
-          className={`px-3 py-1 mr-2 mt-2 text-sm rounded-lg ${
+          className={`w-auto px-3 py-1 mr-2 mt-2 text-sm rounded-lg ${
             selectedTechStack.length === 0
               ? "bg-blue-500 text-white"
               : "bg-gray-200 text-gray-800"
@@ -93,21 +79,34 @@ const SearchBar: React.FC<SearchBarProps> = ({ productList, onSearch }) => {
         >
           All
         </button>
-        {techStack.map(
-          (tech) => (
-            <button
-              key={tech}
-              className={`px-3 py-1 mt-2 mr-2 text-sm rounded-lg ${
-                selectedTechStack.includes(tech)
-                  ? "bg-blue-500 text-white"
-                  : "bg-gray-200 text-gray-800"
-              }`}
-              onClick={() => handleTechStackFilter(tech)}
-            >
-              {tech}
-            </button>
-          )
-        )}
+        {techStack.map((tech) => (
+          <button
+            key={tech}
+            className={`w-auto px-3 py-1 mt-2 mr-2 text-sm rounded-lg ${
+              selectedTechStack.includes(tech)
+                ? "bg-blue-500 text-white"
+                : "bg-gray-200 text-gray-800"
+            }`}
+            onClick={() => handleTechStackFilter(tech)}
+          >
+            {tech}
+          </button>
+        ))}
+      </div>
+      <div className="flex flex-col md:flex-row md:space-x-1 md:items-center sm:mt-2 md:mt-0 w-full md:w-5/12">
+        <input
+          type="text"
+          className="w-full  shadow-lg py-2.5 px-3  text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+          placeholder="Search by title, tech stack, or project count"
+          value={searchText}
+          onChange={(e) => setSearchText(e.target.value)}
+        />
+        <button
+          className="w-full md:w-auto sm:mt-3 py-2.5 px-3  md:mt-0 p-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 hover:shadow-2xl"
+          onClick={handleSearch}
+        >
+          Search
+        </button>
       </div>
     </div>
   );
