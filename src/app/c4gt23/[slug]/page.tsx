@@ -2,6 +2,7 @@
 import { getCert } from "@component/api";
 import React, { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
+import { useParams } from "next/navigation";
 
 const Confetti = dynamic(() => import("react-confetti"), {
   ssr: false,
@@ -9,10 +10,11 @@ const Confetti = dynamic(() => import("react-confetti"), {
 
 const C4gt23 = () => {
   const [url, setUrl] = useState();
+  const params = useParams();
 
   useEffect(() => {
     const getCertificate = async () => {
-      const res = await getCert();
+      const res = await getCert(params?.slug);
       // @ts-ignore
       setUrl(res?.data);
     };

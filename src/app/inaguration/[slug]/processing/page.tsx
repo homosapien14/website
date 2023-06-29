@@ -17,7 +17,7 @@ const Processing = () => {
       // @ts-ignore
       if (res?.data?.done?.length == 3) {
         setTimeout(() => {
-          router.push(`/c4gt23`);
+          router.push(`/c4gt23/${params?.slug}`);
         }, 2000);
       }
     };
@@ -35,9 +35,8 @@ const Processing = () => {
         Watch the portal to GovTech universe unlock!
       </h2>
       <h2 className="mt-3 text-[20px] text-[#636467] text-center">
-        The event will launch only when all four powers of <b>wit</b>,{" "}
-        <b>innovation</b>,<b> curiosity</b>, and a <b>touch of quirkiness</b>{" "}
-        combine!
+        The event will launch only when all three powers of <b>wit</b>,{" "}
+        <b>innovation</b>,and a <b>curiosity</b> combine!
       </h2>
 
       <div className="mt-4">

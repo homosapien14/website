@@ -20,10 +20,11 @@ export const getProgress = async (token: any) => {
     }
 };
 
-export const getCert = async () => {
+export const getCert = async (token: any) => {
     try {
         const response = await axios.post(`${baseUrl}/inauguration/cert`, {
-            "name": "Sh. Abhishek Singh, Dr. Pramod Varma, Mr. Venkatesh Hariharan"
+            "name": "Sh. Abhishek Singh, Dr. Pramod Varma, Mr. Venkatesh Hariharan",
+            "token": token
         });
         return response;
     } catch (error) {
