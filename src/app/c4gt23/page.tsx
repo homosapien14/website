@@ -1,10 +1,15 @@
 "use client";
 import { getCert } from "@component/api";
 import React, { useEffect, useState } from "react";
-import Confetti from "react-confetti";
+import dynamic from "next/dynamic";
+
+const Confetti = dynamic(() => import("react-confetti"), {
+  ssr: false,
+});
 
 const C4gt23 = () => {
   const [url, setUrl] = useState();
+
   useEffect(() => {
     const getCertificate = async () => {
       const res = await getCert();
@@ -13,13 +18,28 @@ const C4gt23 = () => {
     };
     getCertificate();
   }, []);
+  const [dimensions, setDimensions] = useState({
+    width: 0,
+    height: 0,
+  });
+  const [isClient, setClient] = useState(false);
+  useEffect(() => {
+    const { innerWidth: width, innerHeight: height } = window;
+    setDimensions({
+      width,
+      height,
+    });
+    setClient(true);
+  }, []);
   return (
     <div className="h-screen">
-      <Confetti
-        width={window?.innerWidth}
-        height={window?.innerHeight}
-        numberOfPieces={1000}
-      />
+      {isClient && (
+        <Confetti
+          width={dimensions.width}
+          height={dimensions.height}
+          numberOfPieces={1000}
+        />
+      )}
       <iframe
         src={
           url
