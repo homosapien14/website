@@ -42,7 +42,9 @@ const Processing = () => {
 
       <div className="mt-4">
         {/* @ts-ignore */}
-        {data && data?.length > 0 && data?.map((cred) => (
+        {data && // @ts-ignore
+          data?.length > 0 && // @ts-ignore
+          data?.map((cred) => (
             <div className="text-[#33b15b] text-[20px] font-bold text-center">
               {cred?.name}
             </div>
