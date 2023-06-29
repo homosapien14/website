@@ -14,7 +14,7 @@ const Innaguration = () => {
     // @ts-ignore
     setName(() => decodedToken?.id);
   }, []);
-  const { days, hours, minutes, seconds } = useTimer("2023-06-29T16:46:00");
+  const { days, hours, minutes, seconds } = useTimer("2023-06-30T10:30:00");
 
   const router = useRouter();
   const handleClick = async () => {
