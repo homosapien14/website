@@ -2,15 +2,24 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 import { getProgress } from "@component/api";
+import { useRouter } from "next/navigation";
 
 const Processing = () => {
   const params = useParams();
-  const [length, setLength] = useState();
+  const router = useRouter();
+  const [data, setData] = useState();
   useEffect(() => {
     const getProg = async () => {
       const res = await getProgress(params?.slug);
+      console.log(res);
       // @ts-ignore
-      setLength(() => res?.data?.length);
+      setData(() => res?.data?.done);
+      // @ts-ignore
+      if (res?.data?.done?.length == 3) {
+        setTimeout(() => {
+          router.push(`/c4gt23`);
+        }, 2000);
+      }
     };
     getProg();
   }, []);
@@ -30,8 +39,23 @@ const Processing = () => {
         <b>innovation</b>,<b> curiosity</b>, and a <b>touch of quirkiness</b>{" "}
         combine!
       </h2>
-      {length == 1 && <img src="/Loader.svg" />}      
-      <img src="/Loader.svg" />
+
+      <div className="mt-4">
+        {/* @ts-ignore */}
+        {data && data?.length > 0 && data?.map((cred) => (
+            <div className="text-[#33b15b] text-[20px] font-bold text-center">
+              {cred?.name}
+            </div>
+          ))}
+      </div>
+      {/* @ts-ignore */}
+      {data?.length == 0 && <img src="/Loader1.svg" />}
+      {/* @ts-ignore */}
+      {data?.length == 1 && <img src="/Loader2.svg" />}
+      {/* @ts-ignore */}
+      {data?.length == 2 && <img src="/Loader3.svg" />}
+      {/* @ts-ignore */}
+      {data?.length == 3 && <img src="/Loader4.svg" />}
     </div>
   );
 };

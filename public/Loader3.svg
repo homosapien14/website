@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 201.22 33.39">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: url(#Degradado_sin_nombre_21);
+      }
+
+      .cls-5 {
+        mask: url(#mask-2);
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11 {
+        fill: none;
+      }
+
+      .cls-3, .cls-7 {
+        opacity: .5;
+      }
+
+      .cls-6 {
+        mask: url(#mask-1);
+      }
+
+      .cls-7 {
+        mix-blend-mode: multiply;
+      }
+
+      .cls-12 {
+        fill: #8f9ca3;
+      }
+
+      .cls-13 {
+        filter: url(#luminosity-invert);
+      }
+
+      .cls-14 {
+        filter: url(#luminosity-invert-3);
+      }
+
+      .cls-8 {
+        isolation: isolate;
+      }
+
+      .cls-9 {
+        mix-blend-mode: screen;
+      }
+
+      .cls-10 {
+        mask: url(#mask);
+      }
+
+      .cls-15 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-16 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-17 {
+        filter: url(#luminosity-invert-2);
+      }
+
+      .cls-11 {
+        filter: url(#drop-shadow-3);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="26.05" y1="9.52" x2="6.22" y2="28.83" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1b1464"/>
+      <stop offset="1" stop-color="#2e3192"/>
+    </linearGradient>
+    <filter id="luminosity-invert" x="11.3" y="9.45" width="15" height="15" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feColorMatrix result="cm" values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0"/>
+    </filter>
+    <mask id="mask" x="11.3" y="9.45" width="15" height="15" maskUnits="userSpaceOnUse">
+      <g class="cls-13">
+        <image width="15" height="15" transform="translate(11.3 9.45)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAACXBIWXMAAAsSAAALEgHS3X78AAABTUlEQVQokcWTS6uCUBSFl4+0UDMQIhqYUP8hkHDYj26Wo3BaOWoQYU8iqajoeS97Q4d78zZpchfsyeF8rrW2KgH4woeSPwVJ6uuB7/twXRemaUJVVdxuN+x2O0wmE/R6vfdwu91Gq9VCo9GAbdvI5XK4Xq9Yr9cYj8coFovodDpZmBwJbDab8DwPpVJJOKdpikqlgsfjwSmeCQRMUev1OoO1Wg26rgsHy7IgSRKWyyXfe8JiYdSR3Gh+gqRCocA1KLZhGOJcwIqicEyad5JlmRNkYOp2uVx4XnW/33E8HnE4HHA6nbLwdrvFarXize73e3GBwM1mg8VigSRJMJvNstum9zgajbgbAY7jcBVyokXFcYzBYIBut5uFoyhCPp9nZ3p6uVyGpmkMT6dTDIdD9Pv9X4X+/LaDIEC1WmX4fD5jPp8jDMPMLv7pxwDwDcZ4lBX6THGSAAAAAElFTkSuQmCC"/>
+      </g>
+    </mask>
+    <linearGradient id="linear-gradient-2" x1="106.17" y1="10.82" x2="89.21" y2="23.08" xlink:href="#linear-gradient"/>
+    <filter id="luminosity-invert-2" x="90.3" y="9.45" width="16" height="15" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feColorMatrix result="cm" values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0"/>
+    </filter>
+    <mask id="mask-1" x="90.3" y="9.45" width="16" height="15" maskUnits="userSpaceOnUse">
+      <g class="cls-17">
+        <image width="16" height="15" transform="translate(90.3 9.45)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAYAAADtc08vAAAACXBIWXMAAAsSAAALEgHS3X78AAABYUlEQVQokcWTy6uCQBjFjzelh1EtIypK+wPctOix7k+Oti167NqJEFGI2IPsLZJlxnxwBVPupsU9MCDDNz/OnONwAHx8oZ9vDjPxnxvtdhvVahXZbBY8z+P5fOJyuUDXdUyn078BvV4P3W4XjUYDhUIBgiDg8Xhgv99jtVrR3mAwiAe0Wi10Oh00m01IkhQAmIPT6YRSqQSO43C9XjEajaIAZluWZdTrdfpOpVLBUC6XI9jxeMRyuQwBghBFUaTBfD4fOsyUTCbJUbFYRK1Wg6IoUYDv+2SRrTglEgly8TkTABzHwe12g23b8Dwvgrjf79TGbrfDbDaLAlhNi8UChmFQ6iy8X2fn8xnb7RamacKyrPgWxuMx3ZP1z8RST6fTVOPhcCD4fD6nEGMBTP1+H6/Xi65SqVSQyWQIsF6voWkaVFXFZDIJAWLfAvsnyuUyteG6LjabDYbDYWy4//yYALwB1oqZwRbpkBEAAAAASUVORK5CYII="/>
+      </g>
+    </mask>
+    <linearGradient id="Degradado_sin_nombre_21" data-name="Degradado sin nombre 21" x1="177.41" y1="21.8" x2="177.41" y2="11.87" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#eee"/>
+      <stop offset="1" stop-color="silver"/>
+    </linearGradient>
+    <filter id="luminosity-invert-3" x="169.3" y="9.45" width="16" height="15" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feColorMatrix result="cm" values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0"/>
+    </filter>
+    <mask id="mask-2" x="169.3" y="9.45" width="16" height="15" maskUnits="userSpaceOnUse">
+      <g class="cls-14">
+        <image width="16" height="15" transform="translate(169.3 9.45)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAYAAADtc08vAAAACXBIWXMAAAsSAAALEgHS3X78AAABZUlEQVQokcWTuYpCQRBFz1vEFU1cETU0UEHNBNFfm88yM3HBxFhMFEUE0cR9QRyqBmXUN5HBXGjo9+g+1fdWtwHc+EDmJ5tFttPParVKOp3G7/dj2zbn85ntdst4PKbX6/0NKBaLFAoFSqUSqVSKYDCIZVmcTieWyyXD4VC/O52OMyCXy1Gr1cjn8ySTST2BaZoPgNvtZj6fPwEs4EsmlUqFer1OuVwmm80Si8Xw+Xx4PB4CgQBer5fr9crlcuF4PKodfocYj8eJRqOEw2FCoRCGYTx5FUgkEiGRSOjaux6A2+2nmxKa+HyVAF0ulw6x8gZYLBas12t2u52m/io5+n6/1yEW3gASzGAwYDKZaGCy4S6Zr1YrZrMZo9FI1zh2QQCZTEbTPxwO6lu02Wx0c7/fp91u0+12nQHNZlM9SkUByT0QiTWp2mq1aDQaT+Yc34K0VG6itFEkp5lOp1r9Ldz/fUzAN3xumnlxZ3BaAAAAAElFTkSuQmCC"/>
+      </g>
+    </mask>
+    <filter id="drop-shadow-3" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2"/>
+      <feGaussianBlur result="blur" stdDeviation="3"/>
+      <feFlood flood-color="#000" flood-opacity=".34"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="175.98" y1="19.17" x2="178.83" y2="14.22" xlink:href="#linear-gradient"/>
+  </defs>
+  <g class="cls-8">
+    <g id="OBJECTS">
+      <g>
+        <g>
+          <image class="cls-9" width="26" height="26" transform="translate(6.01 4.15)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAAACXBIWXMAAAsSAAALEgHS3X78AAACAElEQVRIid2Wb0/CMBCHf4MNEASJ8c8Ljd//k5kYxaAOUdhWU/OUXLpuaOIrm1zabe09/K69K/q3LfupMOdc79wsy9wxH70ODCAzZtc57DDug3bCAHkbYEMztrBGUo01WFJpEgYoAHJJhaQRfc43AdhjO/oKYEtlfgTkASfYjH7EOofjD0nvkjaStjzv+SHqhJnQBZAHzCUtMT+eotChppS0NhbC65xzjVXXUoaqHBXe+YWka0mXks55N8LhFsgj70JoK3p7gFqwEMIC2BLQraQbgAtJY/bFh28lacL6HWH8JJSNj1ZQd4AlQjgFdgnoDvAZ32v2aYoLD3mT9Eo/BNh5QGJlc0LngVfAFhEsQ+GzpFNUFlGK9O6ZPYnhkCywOc4anG2BTA1oGBWBg+NUS+WZtdx8s+NU4vcqU6IyVKavcGSf7ZxQRVoVJAVrTGUICVuy6TNABXNKY+9RQrsYGMOCoj17ERJ2BWiAwwIlG3JsxbzSAFvqDjCfC75FsBdJTxyUAfkzj2AedA90jcLj5YpfUkewMaHb8TxjXY3jUEEeGG+YW8fFuGvPKmDhCFsVE943hCyujdujYTShlDlxGxaFgjsh/wYm3Kmq/33NxFdM131mL8xwl42ihHW/vc/6Lk8lbmlbGdyf3NQR1JaduAT9zX+QDqWd7Sf/rv5pk/QFTzUDlqw/fh4AAAAASUVORK5CYII="/>
+          <g>
+            <path class="cls-16" d="m18.76,21.93h-.14c-2.89,0-5.23-2.34-5.23-5.23h0c0-2.89,2.34-5.23,5.23-5.23h.14c2.89,0,5.23,2.34,5.23,5.23h0c0,2.89-2.34,5.23-5.23,5.23Z"/>
+            <g class="cls-10">
+              <g class="cls-7">
+                <path class="cls-12" d="m18.76,21.93h-.14c-2.89,0-5.23-2.34-5.23-5.23h0c0-2.89,2.34-5.23,5.23-5.23h.14c2.89,0,5.23,2.34,5.23,5.23h0c0,2.89-2.34,5.23-5.23,5.23Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g>
+          <image class="cls-9" width="27" height="26" transform="translate(85.01 4.15)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAbCAYAAABvCO8sAAAACXBIWXMAAAsSAAALEgHS3X78AAAB7ElEQVRIid2W604CMRBGzyLgoiIk3qPx/V/MxGsEb9y7pvpVx9LC/tEYNpl02bZz9pvpzMLGX0VdgVVVrVxbFEVVx89aoECFWWvvK9nX/TpwFmgUNWRbskYEdMBC5mRZxUmgUeWdN4EW0JY19Rw5nwNT2Uy/XU7tEtDAtgQqgQ6wq7EUFDkfAyPgVeNY4EUK2oyBJowtAbpAD+hr3JVSpMqDhsBAow33Inb8Ayh1IYylYAfAEXAMHAL7wLa2TIAn4F4v1zQw9+myclZlrLCI1PUEuwDOgRMp7Wj9SMq6RvVcIf0KqznJ38Aod22Fri9lHnYJnGWAQfFUz2wunfcdVKZyaBXuK6QeeirrRyEtpWCs8D7qJVrmNKdzGJWCV7kD7Anc09g1wLZy9aa5Pe2x5VOsAmI6ScOURmxhn0vM2eawVHYpYBV1kFnCQqhSc6Hj/DgsOWAVdQ8fqhflZqhwNTSHKYuhxhftmdqOs06h05uO5ORB+SkVonHilF4Dt1r7pOez0FeTQH9s/aWQhA4ykPNQY5NMWdwAV4IOtHeaam+5kAaFQ7PGO3he0Wk87E57rMJ8SKXSmaYcTtncqFnXS5+19yOHdZt3UBlUzwyw7tdiKX/8i+9hBOVPvvgZtb/7nyYDzjuq+a9twy/gHU06AaWmPo0fAAAAAElFTkSuQmCC"/>
+          <g>
+            <path class="cls-1" d="m98.12,21.93h-.14c-2.89,0-5.23-2.34-5.23-5.23h0c0-2.89,2.34-5.23,5.23-5.23h.14c2.89,0,5.23,2.34,5.23,5.23h0c0,2.89-2.34,5.23-5.23,5.23Z"/>
+            <g class="cls-6">
+              <g class="cls-7">
+                <path class="cls-12" d="m98.12,21.93h-.14c-2.89,0-5.23-2.34-5.23-5.23h0c0-2.89,2.34-5.23,5.23-5.23h.14c2.89,0,5.23,2.34,5.23,5.23h0c0,2.89-2.34,5.23-5.23,5.23Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g>
+          <image class="cls-9" width="27" height="26" transform="translate(164.01 4.15)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAbCAYAAABvCO8sAAAACXBIWXMAAAsSAAALEgHS3X78AAAB10lEQVRIid1WYWuDMBB9qTpq64dB2QaD/v9/NhilQzZbXWvNyHgZr9GoXzZGA0dyepfnu9xdxM0PM5egtXbS1hhjJ21mAhmxNYGfpfysx4CjgMJoQUkoCwH1YB2AC6WjDDIeBBRWbvMUQAbgjnMmwB7oTDlxbvmuxzYdieaCmy8B5ADWAFbUMwF0AA2AI4ADgJr6mR9zNXqAZOeZuc0LAPciBZ8n3NBtXgEoReDDba3tlOUQQyPscgI9AngC8EB9Rd+WzBzIjmEHP6TlrEl1DShnl9B5TQAHtgXwDGBDlp6hY7cna/AcHetPhrVz+3qWsTNMyHBFwAeCbbkuhGFFOxDoA8A754Sgo0ljgoTxZ7ghWAiY08+F9k3OOJMSmgQ0wnJJBkUgHhDMzCLI4mSgSURDaoKCT2VORUegp1KjPXZjgFY6hmZcK4JAVzvv2+s0Q4A+jS9BUVeUXHxbeV7RTovehqAxQO0gvqj3ko11ALjj+5K6B+2xjIXUs9Oi9nV2jNThC+1K2ky3NlecbtDwxN5YSgdpmPqxTvPK9YH+l7CBT4W0lt54YjHP6aX17JCSZcevbyTEDTvI3Nvi+4oKr6c/vw//x40fYfu7/zQjjKNjzl/bjQ8AXzO+BEhUp9QrAAAAAElFTkSuQmCC"/>
+          <g>
+            <path class="cls-4" d="m177.48,21.93h-.14c-2.89,0-5.23-2.34-5.23-5.23h0c0-2.89,2.34-5.23,5.23-5.23h.14c2.89,0,5.23,2.34,5.23,5.23h0c0,2.89-2.34,5.23-5.23,5.23Z"/>
+            <g class="cls-5">
+              <g class="cls-7">
+                <path class="cls-12" d="m177.48,21.93h-.14c-2.89,0-5.23-2.34-5.23-5.23h0c0-2.89,2.34-5.23,5.23-5.23h.14c2.89,0,5.23,2.34,5.23,5.23h0c0,2.89-2.34,5.23-5.23,5.23Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g class="cls-11">
+          <circle class="cls-3" cx="177.41" cy="16.7" r="10.43"/>
+          <circle class="cls-2" cx="177.41" cy="16.7" r="7.28"/>
+          <path class="cls-15" d="m180.26,16.7c0,1.58-1.28,2.86-2.86,2.86s-2.86-1.28-2.86-2.86,1.28-2.86,2.86-2.86,2.86,1.28,2.86,2.86Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 201.22 33.39">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: url(#Degradado_sin_nombre_21);
+      }
+
+      .cls-5 {
+        mask: url(#mask-2);
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11 {
+        fill: none;
+      }
+
+      .cls-3, .cls-7 {
+        opacity: .5;
+      }
+
+      .cls-6 {
+        mask: url(#mask-1);
+      }
+
+      .cls-7 {
+        mix-blend-mode: multiply;
+      }
+
+      .cls-12 {
+        fill: #8f9ca3;
+      }
+
+      .cls-13 {
+        filter: url(#luminosity-invert);
+      }
+
+      .cls-14 {
+        fill: url(#Degradado_sin_nombre_21-2);
+      }
+
+      .cls-15 {
+        filter: url(#luminosity-invert-3);
+      }
+
+      .cls-8 {
+        isolation: isolate;
+      }
+
+      .cls-9 {
+        mix-blend-mode: screen;
+      }
+
+      .cls-10 {
+        mask: url(#mask);
+      }
+
+      .cls-16 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-17 {
+        filter: url(#luminosity-invert-2);
+      }
+
+      .cls-11 {
+        filter: url(#drop-shadow-3);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="28.61" y1="9.52" x2="8.79" y2="28.83" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1b1464"/>
+      <stop offset="1" stop-color="#2e3192"/>
+    </linearGradient>
+    <filter id="luminosity-invert" x="13.3" y="8.97" width="16" height="15" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feColorMatrix result="cm" values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0"/>
+    </filter>
+    <mask id="mask" x="13.3" y="8.97" width="16" height="15" maskUnits="userSpaceOnUse">
+      <g class="cls-13">
+        <image width="16" height="15" transform="translate(13.3 8.97)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAYAAADtc08vAAAACXBIWXMAAAsSAAALEgHS3X78AAABWUlEQVQokcVTPYvCQBScnMb4CfGjEFS0CtraBEXT5i/bJoVYWkgCliZqQCQSJRZqPN4rgsd6XGFxA8uyD2Z2ZpKVADzxAb4+IROy74bj8RidTgfFYhGSJOF8PsPzPCwWi78FTNOEYRjo9XqoVCo8C8MQm80GqqpiNpv9LkBkWsPhEO12G+VymedRFLGjTCaDOI5h27YoMBqNMJ1OmTwYDFCv15lAqFarKBQKaZRXgbREuoFst1ot1Gq1lEzI5XJoNBrodrvo9/uYTCaiQD6f59JKpRKyWbFbRVE4EjlrNpuiwO12w/1+5/UOj8cDSZLw/opUYLvdYr/f43g8ctZXEOl0OuFwOCAIAux2O7FEKkbTNO5AlmXOTDvderlcmOg4DlarFebz+fvPuF6vmUgOKCvlpkh0JofL5RKu6/5wJ7wFXde5bfqJyAEJXK9X+L4Py7KEdv75MQH4Bl5pjXyKTDw5AAAAAElFTkSuQmCC"/>
+      </g>
+    </mask>
+    <linearGradient id="Degradado_sin_nombre_21" data-name="Degradado sin nombre 21" x1="100.61" y1="21.8" x2="100.61" y2="11.87" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#eee"/>
+      <stop offset="1" stop-color="silver"/>
+    </linearGradient>
+    <filter id="luminosity-invert-2" x="93.3" y="8.97" width="15" height="15" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feColorMatrix result="cm" values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0"/>
+    </filter>
+    <mask id="mask-1" x="93.3" y="8.97" width="15" height="15" maskUnits="userSpaceOnUse">
+      <g class="cls-17">
+        <image width="15" height="15" transform="translate(93.3 8.97)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAACXBIWXMAAAsSAAALEgHS3X78AAABTklEQVQokZ2TQauCUBCFj08rFMtAoSgyWhTUqjZCIfrfJSJo39KCCoIoJRLCEh8zkETKg9eBQblzP2fmXK8AIMWX+vkWJElFi47joN1uo1wuI45jHA4HeJ73NzybzTAcDjEej9FoNFCpVHC/37Hf79Hr9bBer7FarfKwZVlwXReTyQT9fh+GYUCSJK58PB6h6zrvK4S73S4GgwFGoxG/q6rK62maolqtQhAEXC4X2LaN+XzOucww2kDVqMILJBFUr9fRbDbRarXQ6XSyXAaXSiU2iOJT9AGaX1EUyLKch5/PJx6PBz+LlCQJB42Rg6/XK87nM8IwZIffdbvdEAQBRxRFecN2ux222y3PRm1qmgZRFLkbgnzf5zwdWw5eLpeo1Wrc1ul0YpiOimDqaLPZYLFYcGRmfv7b0+kUpmmy4y+YWqXO3sFC+D/6/mIA+AX/Uo5sWfdS1QAAAABJRU5ErkJggg=="/>
+      </g>
+    </mask>
+    <linearGradient id="Degradado_sin_nombre_21-2" data-name="Degradado sin nombre 21" x1="179.97" x2="179.97" xlink:href="#Degradado_sin_nombre_21"/>
+    <filter id="luminosity-invert-3" x="172.3" y="8.97" width="15" height="15" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feColorMatrix result="cm" values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0"/>
+    </filter>
+    <mask id="mask-2" x="172.3" y="8.97" width="15" height="15" maskUnits="userSpaceOnUse">
+      <g class="cls-15">
+        <image width="15" height="15" transform="translate(172.3 8.97)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAACXBIWXMAAAsSAAALEgHS3X78AAABPklEQVQokZ2TQauCQBSFj6ZhaBYpSETubBNBLSMX/fUCRfwJghAEbiolKgjS3uNeeEOhBK8Dwwxz/eZ6zqgE4AdfSv4WJClNm6vVCuPxGO12G4/HA1mWYbPZfIbn8zlmsxnPo9EImqYJ2PM8JEmC7XbbDBO4Xq8xnU7hOA7DZVnieDzyYbZt436/I47jd9j3fSwWCwYnkwn6/T4kSeJar9eDqqq4XC5I01TAIjDySKcPh8M3kNTtdmFZFgaDAa//JOBOpwNd13l+BYU/ReHuNGow6fl8oqqqpgtg7xQejRpMfvI8x/l85lBedb1eURQF12+3Wz3t/X6P3W7HnmVZ5pBarRZ3IpCCojo9V4OjKIJpmrw+HA4Mk0+CT6cTg0EQIAxDAde+7eVyCdd1YRiGgOlVqeMr2Aj/R9//GAB+AaEqiwOFT1BFAAAAAElFTkSuQmCC"/>
+      </g>
+    </mask>
+    <filter id="drop-shadow-3" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2"/>
+      <feGaussianBlur result="blur" stdDeviation="3"/>
+      <feFlood flood-color="#000" flood-opacity=".34"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="99.24" y1="19.17" x2="102.09" y2="14.22" xlink:href="#linear-gradient"/>
+  </defs>
+  <g class="cls-8">
+    <g id="OBJECTS">
+      <g>
+        <g>
+          <image class="cls-9" width="27" height="26" transform="translate(8.01 3.67)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAbCAYAAABvCO8sAAAACXBIWXMAAAsSAAALEgHS3X78AAAB9UlEQVRIid2Wa08aQRSG31kQkdJia4xa4///ab1oigIiLLDHTPIMOY7LsnyQNE5yMrBzeeY9l9nVp2/hEIFmVjs/hGBt99gLdJDg5qfeXG9t4I1AYNEKSR36IgNW2IbemqC1QAeK1sVOsC5QAVhLWmHrfeBug8CC8Z6kM2engAVggc3pS+CVmb1z8Tsg6hIsbv5F0jdJI/ohhxCbR9BE0pOkqaRnxlao3aswEK+oYiDpXNIldgG4z7wFkH+S7lkTXBKZmVVe5Rugi10HdV+B3Ei6lXQt6TsHEcCo7C+HKFxcUzzNZXOtwuTOPu77AehO0k8OMHAKH/nfAbLk+dLFMiSVOTCP3xBF0Z1XKPXAJTHusPkMxSme6XmrGKbsHJIs59jIAUsOWJI4I+b3iWeRl94WmNVe4RKnxwbeTt28MhvruVoNObDQkdtWYQxqbO662uD/0hV3ssK5NB8rSZ4qz9BdMTRgceELiTAhG4cuEVLSPFGHY37PAK8cdCfQXB0tWTymqFM2ljVl8UfSb0kPQOeH3DSVuyNnnP7MKZvsKPxfgMdcb2Uq/J03jYvjBoVTl3FrDtB0tSWFL21d6mO4wjWBhUlNm8t7kRJn79sClcmt/gALNm79eqoRc/wX8P/xiVEDVXZNfcxHVAP87SYHfCYet0l6BVHaDhPBlckVAAAAAElFTkSuQmCC"/>
+          <g>
+            <path class="cls-16" d="m21.32,21.93h-.14c-2.89,0-5.23-2.34-5.23-5.23h0c0-2.89,2.34-5.23,5.23-5.23h.14c2.89,0,5.23,2.34,5.23,5.23h0c0,2.89-2.34,5.23-5.23,5.23Z"/>
+            <g class="cls-10">
+              <g class="cls-7">
+                <path class="cls-12" d="m21.32,21.93h-.14c-2.89,0-5.23-2.34-5.23-5.23h0c0-2.89,2.34-5.23,5.23-5.23h.14c2.89,0,5.23,2.34,5.23,5.23h0c0,2.89-2.34,5.23-5.23,5.23Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g>
+          <image class="cls-9" width="26" height="26" transform="translate(88.01 3.67)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAAACXBIWXMAAAsSAAALEgHS3X78AAACK0lEQVRIid2W607jMBCFv6RpoXShgPYCe3n/J9sfC6ultCppGxqvjM5oB9dJw6+VsDRy5MTz5YxnbPNuW/EWYSGE7PdFUYQh84/CHKBw31sfXB+OQXthAkUrgZH6UmNB1gJ79W2f0iwsA6mAsazSeBDkGdgBjZ7bLpUHsAQUnU+AU+BM/YmAQZAN8CTbCrrPAauOCBpoCsyAc2AOXAg6loIaWAGPspX9s4Cv2iuYVJUajyo+AFfAR+ATcC3wRM7WwB/g3vmydQwhhNarS5UViaqo5jPwDbjV89zBopI7hRatWeND6TL2H8yt1UjOZlL1BfgO/NDzpd5Hx0v9VKH1q2UbAdvo19Tl1mwkZWdSEUN4A3wVbO5gM0ViK5UL2cQBOxPEh9HWbC6F17ILzds70KXGZ5pXuXrshfkksbSfyiz1x1I2zbyrFJ0ihZWZMPa13JZVdIwftFSZ34JsZ9gq/lvZiduidu6bg13EZ2IujB60UR0ttegPAgWFce8KeqnnJ0ENSB8M98e1HP1WIZ8KVLtstDq7V3Gv9L5x6g5hsRZic7C1FE3lHDlKizr+zE8BF5q3y+2PXWFsnDL7ZqdwnbswrhXeCPol2HFlTp1fM8usZzl5ULFXcrZJitnCOHjNcOpMrSldKElKd8TUSgzbqrIhZODhWblzLXd4Nknav5zagw7PBIi7CqTXAtxVwF8LOu8iQy88fTuEFe8LoO/SM/gq13WNOwb4Pw34C5fRB66fu9XvAAAAAElFTkSuQmCC"/>
+          <g>
+            <path class="cls-4" d="m100.68,21.93h-.14c-2.89,0-5.23-2.34-5.23-5.23h0c0-2.89,2.34-5.23,5.23-5.23h.14c2.89,0,5.23,2.34,5.23,5.23h0c0,2.89-2.34,5.23-5.23,5.23Z"/>
+            <g class="cls-6">
+              <g class="cls-7">
+                <path class="cls-12" d="m100.68,21.93h-.14c-2.89,0-5.23-2.34-5.23-5.23h0c0-2.89,2.34-5.23,5.23-5.23h.14c2.89,0,5.23,2.34,5.23,5.23h0c0,2.89-2.34,5.23-5.23,5.23Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g>
+          <image class="cls-9" width="26" height="26" transform="translate(167.01 3.67)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAAACXBIWXMAAAsSAAALEgHS3X78AAAB8UlEQVRIid2W62obMRBGjza+xBjXzY2Q5kfe/8VaStM6djBZX9YqA5/csardOBSnEMEge1eao29mJC0ftoW3CIsxFseHEOIx81+FOUBw41MfXR9fA3fCBDKrgDP1VQbbyRr1sQ1YhDmIWU/Wl/UERM63wEa2lcUStNehuNL7ATBydu7mmeMaeHEW9HznwlxWJlWVVJjjMfAJmKofawHW1sASWABz9UstwJTuvLpeARScInN8AVwDN8CVoENNWQnyUws7c+E1yCbGuC+aUhhT+EZSYqB74AtwK/hIYy1sM2Di1DYKY+OsmLOg1fXlcCpFBnoA7oBLqUDh+uX+r10OV3nu9rCszPtO2ZUU3Ql6kcH872eFda7cGTCYbwtlVxhTcUwFuFT/2eXMg540duwqtvKOS2HMy37In5I/1/+hm5Oej/R84ED+1Dkkn7rlyqI7grZK+EoJr7McoXd1VhTrrDDK+0xt506GpZI9y6rO5yq9m7nCqB3w75xZtVjTgI1WutCGnXRUoIG+Ad81dqG5m/xgLoWxcbC5HA+c86fCpjbQV+CH5iRYc2wYk7J0BK21j9qOKwM9OmXtYXShRAOD4o9WWMvxMQdxKpKDa6btPqv+4YrZV2MI4UDZu16e//+zoADk5B88HeBDJ0d+yr1fA34DhbP7pF9JmKwAAAAASUVORK5CYII="/>
+          <g>
+            <path class="cls-14" d="m180.04,21.93h-.14c-2.89,0-5.23-2.34-5.23-5.23h0c0-2.89,2.34-5.23,5.23-5.23h.14c2.89,0,5.23,2.34,5.23,5.23h0c0,2.89-2.34,5.23-5.23,5.23Z"/>
+            <g class="cls-5">
+              <g class="cls-7">
+                <path class="cls-12" d="m180.04,21.93h-.14c-2.89,0-5.23-2.34-5.23-5.23h0c0-2.89,2.34-5.23,5.23-5.23h.14c2.89,0,5.23,2.34,5.23,5.23h0c0,2.89-2.34,5.23-5.23,5.23Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g class="cls-11">
+          <circle class="cls-3" cx="100.66" cy="16.7" r="10.43"/>
+          <circle class="cls-2" cx="100.66" cy="16.7" r="7.28"/>
+          <path class="cls-1" d="m103.52,16.7c0,1.58-1.28,2.86-2.86,2.86s-2.86-1.28-2.86-2.86,1.28-2.86,2.86-2.86,2.86,1.28,2.86,2.86Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
