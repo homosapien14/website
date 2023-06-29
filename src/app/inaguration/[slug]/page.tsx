@@ -33,7 +33,7 @@ const Innaguration = () => {
           Rahul Kulkarni claims Code for GovTech 2023 to be launched.
         </h2>
         <div className="timer text-center mt-3 text-[35px] text-[#294294] font-bold">
-          {hours} hr : {minutes} min : {seconds} sec
+          {hours > 0 ? hours : "00"} hr : {minutes > 0 ? minutes : "00"} min : {seconds > 0 ? seconds : "00"} sec
         </div>
         <button
           className="mt-4 px-5 py-2 bg-[#f46827] text-white font-bold rounded disabled:opacity-50"
