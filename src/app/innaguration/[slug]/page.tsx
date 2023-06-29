@@ -4,6 +4,7 @@ import { useParams } from "next/navigation";
 import jwt_decode from "jwt-decode";
 import { useEffect, useState } from "react";
 import { verifyToken } from "@component/api";
+import useTimer from "@component/hooks/useTimer";
 
 const Innaguration = () => {
   const [name, setName] = useState();
@@ -13,6 +14,7 @@ const Innaguration = () => {
     // @ts-ignore
     setName(() => decodedToken?.id);
   }, []);
+  const { days, hours, minutes, seconds } = useTimer("2023-06-30T11:00:00");
 
   const router = useRouter();
   const handleClick = async () => {
@@ -30,9 +32,13 @@ const Innaguration = () => {
         <h2 className="text-center mt-2 text-[25px] text-[#294294]">
           Rahul Kulkarni claims Code for GovTech 2023 to be launched.
         </h2>
+        <div className="timer text-center mt-3 text-[35px] text-[#294294] font-bold">
+          {hours} hr : {minutes} min : {seconds} sec
+        </div>
         <button
-          className="mt-4 px-5 py-2 bg-[#f46827] text-white font-bold rounded"
+          className="mt-4 px-5 py-2 bg-[#f46827] text-white font-bold rounded disabled:opacity-50"
           onClick={handleClick}
+          disabled={hours == 0 && minutes == 0 && seconds == 0 ? false : true}
         >
           Click here to Launch C4GT
         </button>
