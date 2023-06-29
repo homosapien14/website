@@ -56,9 +56,9 @@ const C4gt23 = () => {
     <div className="container flex justify-center items-center flex-col min-h-screen">
       <img src="/C4GT.png" width={400} />
       <h1 className="text-center text-[30px] mt-4 font-bold text-[#294294] tracking-wide	leading-10">
-        The inagurators have not approved the launch of Code for Govtech 2023
-        yet, If you are one of the inagurators, kindly check your mail to
-        approve.
+        All the inaugurators have not approved the launch of Code for Govtech
+        2023 yet. <br /> If you are one of the inaugurators, kindly check your
+        mail to approve.
       </h1>
     </div>
   );
