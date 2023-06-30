@@ -17,7 +17,7 @@ const Processing = () => {
       // @ts-ignore
       if (res?.data?.done?.length == 3) {
         setTimeout(() => {
-          router.push(`/c4gt23/${params?.slug}`);
+          router.push(`/c4gt23`);
         }, 5000);
       }
     };
