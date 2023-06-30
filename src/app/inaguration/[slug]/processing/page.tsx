@@ -36,7 +36,7 @@ const Processing = () => {
       </h2>
       <h2 className="mt-3 text-[20px] text-[#636467] text-center">
         The event will launch only when all three powers of <b>wit</b>,{" "}
-        <b>innovation</b>,and a <b>curiosity</b> combine!
+        <b>innovation</b>, and<b> curiosity</b> combine!
       </h2>
 
       <div className="mt-4">
