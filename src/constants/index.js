@@ -306,7 +306,7 @@ export const productList =  [
 
 ];
 
-export const techStack =   ["Java", "SpringBoot", "Javascript",  "Python", "NLP", "Docker", "NodeJS",  "MongoDB", "TypeScript","MySQL", "Kotlin", "Rust", "ReactJS", "NestJS","Django", "Flutter", "ReactNative"];
+export const techStack = ["Java", "SpringBoot", "Javascript",  "Python", "NLP", "Docker", "NodeJS",  "MongoDB", "TypeScript","MySQL", "Kotlin", "Rust", "ReactJS", "NestJS","Django", "Flutter", "ReactNative"];
 
 
 
