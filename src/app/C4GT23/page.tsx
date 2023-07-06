@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
-import { ProductList, Header } from "../../components/";
-import { productList } from "../../assets/constants";
+import { ProductList, Header } from '@/component/components';
+import { productList } from '@/component/constants';
 
 const C4GT23 = () => {
   return (

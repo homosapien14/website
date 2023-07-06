@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import ProductCard from "../productCard/productCard";
-import SearchBar from "../searchBar/search";
+import {ProductCard} from '@/component/components';
+import {SearchBar} from '@/component/components' ;
 
 interface ProductListProps {
   productList: {

@@ -11,7 +11,7 @@ interface ProductProps {
   };
 }
 
-const ProductCard: React.FC<ProductProps> = ({ product }) => {
+export const ProductCard: React.FC<ProductProps> = ({ product }) => {
   return (
     <div className="bg-white rounded-lg border border-gray-600 shadow-xl p-6 mb-4 hover:shadow-xl transform hover:-translate-y-1 hover:scale-105 transition duration-300 flex flex-col flex-grow">
       <div className="flex flex-col justify-between">
@@ -73,4 +73,3 @@ const ProductCard: React.FC<ProductProps> = ({ product }) => {
   );
 };
 
-export default ProductCard;

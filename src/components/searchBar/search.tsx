@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { techStack } from "../../assets/constants";
+import { techStack } from '@/component/constants';
 
 interface SearchBarProps {
   productList: {
@@ -20,7 +20,7 @@ interface SearchBarProps {
   ) => void;
 }
 
-const SearchBar: React.FC<SearchBarProps> = ({ productList, onSearch }) => {
+export const SearchBar: React.FC<SearchBarProps> = ({ productList, onSearch }) => {
   const [searchText, setSearchText] = useState("");
   const [selectedTechStack, setSelectedTechStack] = useState<string[]>([]);
 
@@ -112,4 +112,3 @@ const SearchBar: React.FC<SearchBarProps> = ({ productList, onSearch }) => {
   );
 };
 
-export default SearchBar;
