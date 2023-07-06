@@ -20,7 +20,7 @@ export const productList =  [
       description:
         'Beckn protocol is a set of open specifications aimed to create a common language, that is machine-readable and enables interoperability for economic transactions between disparate platforms of any size and form - be it a cab reservation, booking a stay, and many more.',
       projectCount: 13,
-      techStack: ['Open API' , 'NodeJS' , 'JavaScript' , 'Mongo DB' , 'TypeScript' , 'JSON Schema', 'MySQL' , 'Kotlin' , 'Postman' , 'gRPC'],
+      techStack: ['Open API' , 'NodeJS' , 'JavaScript' , 'MongoDB' , 'TypeScript' , 'JSON Schema', 'MySQL' , 'Kotlin' , 'Postman' , 'gRPC'],
       githubLink: 'https://github.com/Code4GovTech/C4GT/wiki/BeckN',
     },
     {
