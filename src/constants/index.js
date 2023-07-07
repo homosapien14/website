@@ -20,7 +20,7 @@ export const productList =  [
       description:
         'Beckn protocol is a set of open specifications aimed to create a common language, that is machine-readable and enables interoperability for economic transactions between disparate platforms of any size and form - be it a cab reservation, booking a stay, and many more.',
       projectCount: 13,
-      techStack: ['Open API' , 'NodeJS' , 'JavaScript' , 'MongoDB' , 'TypeScript' , 'JSON Schema', 'MySQL' , 'Kotlin' , 'Postman' , 'gRPC'],
+      techStack: ['Open API' , 'NodeJS' , 'Javascript' , 'MongoDB' , 'TypeScript' , 'JSON Schema', 'MySQL' , 'Kotlin' , 'Postman' , 'gRPC'],
       githubLink: 'https://github.com/Code4GovTech/C4GT/wiki/BeckN',
     },
     {
@@ -68,7 +68,7 @@ export const productList =  [
       description:
         'DIKSHA is a national platform for school education, which enables several use cases and solutions for teaching and learning. As of date 35 States/UTs as well as autonomous bodies leverage DIKSHA for rolling out teacher professional development courses. ',
       projectCount: 5,
-      techStack: ['Java' , 'Node' , 'JavaScript' , 'Angular'],
+      techStack: ['Java' , 'Node' , 'Javascript' , 'Angular'],
       githubLink: 'https://github.com/Code4GovTech/C4GT/wiki/Diksha',
     },
     {
@@ -100,7 +100,7 @@ export const productList =  [
       description:
         'The Health Claim Exchange is a communication protocol that facilitates the exchange of health claim information between payers, providers, beneficiaries, and other relevant entities. ',
       projectCount: 2,
-      techStack: ['JavaScript','Python'],
+      techStack: ['Javascript','Python'],
       githubLink: 'https://github.com/Code4GovTech/C4GT23/wiki/Health-Claims-Exchange',
     },
     {

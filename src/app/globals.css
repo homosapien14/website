@@ -1,4 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+:root{
+    --primary:#05244f;
+}
+@font-face {
+    font-family: Mulish-Bold;
+    src: url(../font/Mulish-Bold.ttf);
+    font-display: swap;
+}
+@font-face {
+    font-family: Mulish-Demi;
+    src: url(../font/Mulish-Demi.ttf);
+    font-display: swap;
+}
+@font-face {
+    font-family: Mulish-Medium;
+    src: url(../font/Mulish-Medium.ttf);
+    font-display: swap;
+}
+@font-face {
+    font-family: Mulish-Regular;
+    src: url(../font/Mulish-Regular.ttf);
+    font-display: swap;
+}
 
+.font-bold{
+    font-family: Mulish-Bold !important;
+}
+.font-regular{
+    font-family: Mulish-Regular !important;
+}
+.font-demi{
+    font-family: Mulish-Demi !important;
+}
+.font-medium{
+    font-family:Mulish-Medium !important;
+}
+
+.bg-primary-color{
+    background-color: var(--primary);
+}

@@ -1,5 +1,12 @@
-import Image from "next/image";
+import Head from "next/head";
 
 export default function Home() {
-  return <main className=""></main>;
+  return (
+    <div className="">
+      <Head>
+        <title>Code for GovTech</title>
+        <meta name="keywords" content="titla, meta, nextjs" />
+      </Head>
+    </div>
+  );
 }

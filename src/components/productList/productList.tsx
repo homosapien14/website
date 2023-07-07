@@ -21,7 +21,7 @@ export const ProductList: React.FC<ProductListProps> = ({ productList }) => {
 
   return (
     <div className="container mt-14 mx-auto px-4 sm:px-6 lg:px-8">
-      <h1 className="text-3xl text-center font-bold text-slate-800 mb-8 font-display">
+      <h1 className="font-bold text-3xl text-center font-bold text-slate-800 mb-8 font-display">
         C4GT 2023 Projects
       </h1>
       <div className="">
