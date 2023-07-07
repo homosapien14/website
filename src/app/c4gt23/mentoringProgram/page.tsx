@@ -8,7 +8,7 @@ const C4GT23 = () => {
   return (
     <div>
       <Head>
-        <title>Mentoring Program Projects | Code for GovTech</title>
+         <title>Mentoring Program Projects | Code for GovTech</title>
       </Head>
       <div className={`c4gt23-container  bg-gray-100`}>
         <Header />
