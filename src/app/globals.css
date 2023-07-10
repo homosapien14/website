@@ -6,9 +6,9 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --dark: #0E1117 ;
-  --white: #ffff ;
-  --gray: #d3cccc ;
+  --dark: #0e1117;
+  --white: #ffff;
+  --gray: #d3cccc;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,5 +21,34 @@
 
 body {
   color: var(--white);
-  background-color:var(--dark) !important;
+  /* background-color: var(--dark) !important; */
+  background-image: url("../assets/images/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@font-face {
+  font-family: Mulish-bold;
+  src: url("../assets/fonts/Mulish-Bold.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: Mulish-demi;
+  src: url("../assets/fonts/Mulish-Bold.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: Mulish-medium;
+  src: url("../assets/fonts/Mulish-Medium.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: Mulish-regular;
+  src: url("../assets/fonts/Mulish-Regular.ttf");
+  font-display: swap;
+}
+
+body {
+  font-family: Mulish-regular !important;
 }

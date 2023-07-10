@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 201.22 33.39">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-2 {
+        mask: url(#mask-2);
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        fill: none;
+      }
+
+      .cls-3 {
+        mask: url(#mask-1);
+      }
+
+      .cls-4 {
+        mix-blend-mode: multiply;
+        opacity: .5;
+      }
+
+      .cls-8 {
+        fill: #8f9ca3;
+      }
+
+      .cls-9 {
+        filter: url(#luminosity-invert);
+      }
+
+      .cls-10 {
+        filter: url(#luminosity-invert-3);
+      }
+
+      .cls-5 {
+        isolation: isolate;
+      }
+
+      .cls-6 {
+        mix-blend-mode: screen;
+      }
+
+      .cls-7 {
+        mask: url(#mask);
+      }
+
+      .cls-11 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-12 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-13 {
+        filter: url(#luminosity-invert-2);
+      }
+
+      .cls-14 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-15 {
+        fill: #c4c4c4;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="79.03" y1="52.17" x2="120.38" y2="-19.45" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1b1464"/>
+      <stop offset="1" stop-color="#2e3192"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="108.73" y1="10.82" x2="91.78" y2="23.08" xlink:href="#linear-gradient"/>
+    <filter id="luminosity-invert" x="93.3" y="8.94" width="15" height="15" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feColorMatrix result="cm" values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0"/>
+    </filter>
+    <mask id="mask" x="93.3" y="8.94" width="15" height="15" maskUnits="userSpaceOnUse">
+      <g class="cls-9">
+        <image width="15" height="15" transform="translate(93.3 8.94)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAYAAADtc08vAAAACXBIWXMAAAsSAAALEgHS3X78AAABRklEQVQokcWTTauCUBCGX6/moswWSgRFuQjBnW0CRehn5y+ofkUftAw/ChWj0svMxYXcExfa3BcGDxznOTPvnCPhRzU+1NeniY2UdxtBEGAymUBVVdzvd5zPZ2w2m78Bvu/DcRy4rovhcMiAoihwOBwwGAywXq/fA5bLJVarFRaLBebzOUzThKIoDBiPx9A0DXVdIwxDMWA2m8G2ba7AsixOIL1eL15LkoQsy3C9XrHdbnmvZWK/3+dTKZpkkizLMAyDq5hOpxyNWoBOp8M9U/wyS1HQ6/X4kG63KwY8n088Hg/+ilRVFXtAIQTcbjdEUYQ0TVGWZQtBvSdJwkGmCk2kWR+PR4xGIzaMxkb9U1VxHGO/3+N0OvF/QsBut4Ou61zi5XJhAPVOAKqM7gJdpmYCJOFb8DyPnaZJNIA8z4W38Z8fE4BvSxOOHneZUgoAAAAASUVORK5CYII="/>
+      </g>
+    </mask>
+    <linearGradient id="linear-gradient-3" x1="29.37" y1="10.82" x2="12.42" y2="23.08" xlink:href="#linear-gradient"/>
+    <filter id="luminosity-invert-2" x="13.3" y="8.94" width="16" height="15" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feColorMatrix result="cm" values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0"/>
+    </filter>
+    <mask id="mask-1" x="13.3" y="8.94" width="16" height="15" maskUnits="userSpaceOnUse">
+      <g class="cls-13">
+        <image width="16" height="15" transform="translate(13.3 8.94)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAPCAYAAAACsSQRAAAACXBIWXMAAAsSAAALEgHS3X78AAABUklEQVQ4jc2TQYuCUBSFj1OYZEGlm0ixVtG2jRTWtr/cWgj8AxFGq8IKogIViQqNe4eiZt4MA23mwOXBu7zvvnP0SfhUhjf08c7hu/I/Nfr9PkzTRLFYhCRJiKIIq9UKnuf9DTIajTAcDtFqtVAqlXjveDxiuVyiUqlgPB7/DiEAVbfbhWEYD0gYhnyzXC6HJEnguq4Y0uv1MBgMGNDpdKBpGh8iVatVtna39Qx5CZYmNZtNNBoN1Gq1B4AkyzJDqU8DHMcRQxRFgaqqXPn897ioT/YIVq/XxZDL5cJ1vV5FeSNNU2RZxvWsF0gQBNhsNtjv9+z9qyjcw+GA7XaL9XotDpbCarfbnAlloOs6rzT5dDpht9thsVhgOp1iMpmIISTf99lzHMe8Ug4Eoc9KN5zNZpjP5y9nhG/Htm1YloVyuYxCocCQ8/nMdkR/7T95gABuKTKOJ5TyAEAAAAAASUVORK5CYII="/>
+      </g>
+    </mask>
+    <linearGradient id="linear-gradient-4" x1="188.09" y1="10.82" x2="171.14" y2="23.08" xlink:href="#linear-gradient"/>
+    <filter id="luminosity-invert-3" x="172.3" y="8.94" width="15" height="15" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feColorMatrix result="cm" values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0"/>
+    </filter>
+    <mask id="mask-2" x="172.3" y="8.94" width="15" height="15" maskUnits="userSpaceOnUse">
+      <g class="cls-10">
+        <image width="15" height="15" transform="translate(172.3 8.94)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAYAAADtc08vAAAACXBIWXMAAAsSAAALEgHS3X78AAABSElEQVQokaWTX4uCQBTFT2ZiqCUVRIi+5YsE+Rj64FcvSKKPEASB4ItlRAVCf3a5N3KVjGXbA8MMzJzfvffA1PDQFz6U8KnxKfHdhed5ME0TkiThcrkgjmNMp9PfAePxGKPRiHfDMCDLcg4YDodYrVaYzWbvAWQOggCO46Df7zPger1iu90ysNfrIcsyLJfLV4Dv+3Bdl822bUPXddRqj5zb7TYajQaOxyPW63UOKIVIM1OVwWBQMpM0TUO320Wn0+HzUyVAs9mEoii8F835vKLIXdCqBJDu9ztut9uLmURZUKC0KgE0X5qmOBwOHFRRp9MJ+/2e78/n809XxUdRFGGz2XAGgiBwcPV6nSuSmcKje3pXCVgsFmi1WnxOkoQBNDcBdrsdm+fzOcIwzD2Vf2EymcCyLKiqmgOobapcNL8F/EX/+0wAvgFZNIsDBFvMBQAAAABJRU5ErkJggg=="/>
+      </g>
+    </mask>
+  </defs>
+  <g class="cls-5">
+    <g id="OBJECTS">
+      <path class="cls-15" d="m179.79,19.22H21.43c-.89,0-1.61-1.13-1.61-2.52h0c0-1.39.72-2.52,1.61-2.52h158.36c.89,0,1.61,1.13,1.61,2.52h0c0,1.39-.72,2.52-1.61,2.52Z"/>
+      <path class="cls-12" d="m178.62,14.17H22.99c-1.75,0-3.17,1.13-3.17,2.52s1.42,2.52,3.17,2.52h155.08c.03-1.71.2-3.39.55-5.05Z"/>
+      <g>
+        <g>
+          <image class="cls-6" width="26" height="26" transform="translate(88.01 3.64)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAAACXBIWXMAAAsSAAALEgHS3X78AAACIklEQVRIid2WXU/bMBSGHydpaWFdhYToJvb//9kuxtAoZSUl/TDy9B50cJM0veFilo4SO44fv+ccf/DfljBUWIzxqG8IIZ7jmF6YA4SOvlE2CNwJEyhZkZmVQ2bxFPAIlkFKoJKNVC8E2QNbYCfbcwIaekBp8DEwAaZ6jh2sATZArWcjeCewapmAgRLgCpgBc+CL2kqpSJC/wBPwDKz1/1bfj8o7TKoKtU00+DVwI7tWWyW3JdAj8KDJBZcwMcZ4yNV5ZSFTldTcAnfAdwG/OthKoKlzrY/fe6Z+gLlYlYrLlZQsgB+yhWAjuWqlfqUAr4rdq8UujevV5TErNdillCU136RukSmbZS59cvErBexMEO9Gi9lcCs08rHIKLYEm+r9oW1Y5zCeJT/tLl/6Vi83U2Vjfyq4dp8gbekrIJuR3l9CzpbUqs+yxrGqyoCe7cLtH4/o0bjc5tGViG8xAGy3SFI+l1tOF+owEe1ZCrPT+IqgBe5XhZlxroAdl3USgWrHZCXAP/Ab+qF77LasVltZCKg62liILPBporropS5P5KeBS/zW2qPt2EHPj1imz743cNXNuXMu9CfRLsNPKnDofM8usnQZ51BKoNNhG6pYyc+PgmOHUmVpTulSSFGq32L7oWfe5kAGHZ+XOtZHqBrPD06f9vwN00OGZAXGLtswWMO5KsHfvvVeDIRcevzPk/aNfwGffQXqg7QOceZ37nAK8AVHoB5Dvb9QMAAAAAElFTkSuQmCC"/>
+          <g>
+            <path class="cls-1" d="m100.68,21.93h-.14c-2.89,0-5.23-2.34-5.23-5.23h0c0-2.89,2.34-5.23,5.23-5.23h.14c2.89,0,5.23,2.34,5.23,5.23h0c0,2.89-2.34,5.23-5.23,5.23Z"/>
+            <g class="cls-7">
+              <g class="cls-4">
+                <path class="cls-8" d="m100.68,21.93h-.14c-2.89,0-5.23-2.34-5.23-5.23h0c0-2.89,2.34-5.23,5.23-5.23h.14c2.89,0,5.23,2.34,5.23,5.23h0c0,2.89-2.34,5.23-5.23,5.23Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g>
+          <image class="cls-6" width="27" height="26" transform="translate(8.01 3.64)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAbCAYAAABvCO8sAAAACXBIWXMAAAsSAAALEgHS3X78AAAB90lEQVRIid2Wa0/iQBSG3yksoqK4a4y3+P9/2q6XyAqIUKDHjHlmc6xTKB/UZCc5GWin85z3XKbVfz9CW4Fmll0bQrBdgrQR6CDBrU2zudnawhuBwKIVkjrMRQ1YYWtm2wb9AHSgaF3sB9YFKgArSUts1QbcbXCk4F5P0r6zPcACMMdmzCXwysyyIX4HRF2Cxc0PJR1LGjIPcEJsHkFjSU+SJpKeubdE7VaFgXxFFQeSTiSdYaeA+6ybA3mUdM8zwRWRmVlVV/kP6HLXQd0RkEtJ15IuJP3EEQGMyu5wonB5Tfk0V81ZhSmcfcL3C9CNpCscOHAK//K/A2TB9YXLZfAqPbCevwGKYjjPUeqBC3LcYfMpilM+0/VWOUzVOaBYTrChA5Y4WFI4Q9b3yWeRa7uuPvZe4Qqnxwbe9ty6snav53o15IBF/cJnjzeFMalxuONqTfxL19zJChfS+r2S4qlyFZrLoQGLD75QCGOqceAKIRXNE3044vcU8NJBG4Hm+mjBwyOaOlVjmWmLW0l/JD0Ane1y0lTujJzi/b5TNm5o/N+ARxxvZWr8xpPG5XGNwomruBUObDraksKXtiH1OVwSmsCDSU2bw3ueCmfr2wKVKazegTkbt3495fKn73gBf/8nRgaq2jH1OR9RG+DvN9jxM/Frh6RXiQoOE6sBrQsAAAAASUVORK5CYII="/>
+          <g>
+            <path class="cls-11" d="m21.32,21.93h-.14c-2.89,0-5.23-2.34-5.23-5.23h0c0-2.89,2.34-5.23,5.23-5.23h.14c2.89,0,5.23,2.34,5.23,5.23h0c0,2.89-2.34,5.23-5.23,5.23Z"/>
+            <g class="cls-3">
+              <g class="cls-4">
+                <path class="cls-8" d="m21.32,21.93h-.14c-2.89,0-5.23-2.34-5.23-5.23h0c0-2.89,2.34-5.23,5.23-5.23h.14c2.89,0,5.23,2.34,5.23,5.23h0c0,2.89-2.34,5.23-5.23,5.23Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g>
+          <image class="cls-6" width="26" height="26" transform="translate(167.01 3.64)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAYAAACN1PRVAAAACXBIWXMAAAsSAAALEgHS3X78AAAB8UlEQVRIid2W62obMRBGjzZrO8akzq2UtD/6/i/WUnJx7GKyvqxVBj61E63WbAhJoIJB9q40R9/MSFr+2xaGCosxFseGEOJQH0dhDhDc2NRH18ch4F6YQGYVcKK+ymAHWas+HgN2YA5iVstGslpA5HwP7GR7WeyD1j0LqPRuDEydnbo55rgBnpwFPT+4MJeVSVUlFeZ4BnwC5upnWoC1LbAGVsBS/VoLMKWHXF2dgYJTZI4vgGvgM3Al6ERTNoLca2EnLrwG2cUYnxVNHsYUvqmUGOgb8BX4IvhUYy1sC+DMqW0VxtZZMWdBqxvJ4VyKDPQduAEupQKF68H937ocbkq5q+mW+cgpu5KiG0EvMpj//VthXSp3BgzmO4WyL4ypOOYCXKo/dznzoEeNnbmKrTLfnTDmZT/hX8mf6v/EzUnPp3o+dqCQV3uH/pbNK4vuCNor4RslvMlyhN41WVFss8Io7zO1gzsZ1kr2Iqs6n6v0buEKo3HAbs6sWqxpwE4rXWnDnh2pQAP9BH5p7Epzd6WDOQ9j62BLOR4754+FTW2gH8Ct5iRYOzSMSVk6grbaR33HlYHunLL+MLpQooFB8UcrbOR4yEGciqRzzZTus+oVV8zfagwhdJS96+X5sZ8FBSBv/sFzBPzcwQs+5d6vAX8Ac3v7pIIX6xYAAAAASUVORK5CYII="/>
+          <g>
+            <path class="cls-14" d="m180.04,21.93h-.14c-2.89,0-5.23-2.34-5.23-5.23h0c0-2.89,2.34-5.23,5.23-5.23h.14c2.89,0,5.23,2.34,5.23,5.23h0c0,2.89-2.34,5.23-5.23,5.23Z"/>
+            <g class="cls-2">
+              <g class="cls-4">
+                <path class="cls-8" d="m180.04,21.93h-.14c-2.89,0-5.23-2.34-5.23-5.23h0c0-2.89,2.34-5.23,5.23-5.23h.14c2.89,0,5.23,2.34,5.23,5.23h0c0,2.89-2.34,5.23-5.23,5.23Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
