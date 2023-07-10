@@ -1,12 +1,10 @@
-import Head from "next/head";
-
 export default function Home() {
   return (
-    <div className="">
-      <Head>
-        <title>Code for GovTech</title>
-        <meta name="keywords" content="titla, meta, nextjs" />
-      </Head>
+    <div className="container flex justify-center items-center flex-col min-h-screen">
+      <img src="/C4GT.png" width={400} />
+      <h1 className="text-center text-[30px] mt-4 font-bold text-[#294294]">
+        If you are one of the inaugurators, check out the mail for the link
+      </h1>
     </div>
   );
 }

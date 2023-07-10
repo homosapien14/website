@@ -5,6 +5,7 @@ import { productList } from '@/component/constants';
 import Head from "next/head";
 
 const C4GT23 = () => {
+  
   return (
     <div>
       <Head>

@@ -1,43 +1,60 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-:root{
-    --primary:#05244f;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --dark: #0e1117;
+  --white: #ffff;
+  --gray: #d3cccc;
+  --primary: #05244f;
 }
-@font-face {
-    font-family: Mulish-Bold;
-    src: url(../font/Mulish-Bold.ttf);
-    font-display: swap;
-}
-@font-face {
-    font-family: Mulish-Demi;
-    src: url(../font/Mulish-Demi.ttf);
-    font-display: swap;
-}
-@font-face {
-    font-family: Mulish-Medium;
-    src: url(../font/Mulish-Medium.ttf);
-    font-display: swap;
-}
-@font-face {
-    font-family: Mulish-Regular;
-    src: url(../font/Mulish-Regular.ttf);
-    font-display: swap;
+body {
+  color: var(--white);
+  /* background-color: var(--dark) !important; */
+  background-image: url("../assets/images/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.font-bold{
-    font-family: Mulish-Bold !important;
+@font-face {
+  font-family: Mulish-bold;
+  src: url("../assets/fonts/Mulish-Bold.ttf");
+  font-display: swap;
 }
-.font-regular{
-    font-family: Mulish-Regular !important;
+@font-face {
+  font-family: Mulish-demi;
+  src: url("../assets/fonts/Mulish-Bold.ttf");
+  font-display: swap;
 }
-.font-demi{
-    font-family: Mulish-Demi !important;
+@font-face {
+  font-family: Mulish-medium;
+  src: url("../assets/fonts/Mulish-Medium.ttf");
+  font-display: swap;
 }
-.font-medium{
-    font-family:Mulish-Medium !important;
+@font-face {
+  font-family: Mulish-regular;
+  src: url("../assets/fonts/Mulish-Regular.ttf");
+  font-display: swap;
 }
-
-.bg-primary-color{
-    background-color: var(--primary);
+.font-bold {
+  font-family: Mulish-Bold !important;
+}
+.font-regular {
+  font-family: Mulish-Regular !important;
+}
+.font-demi {
+  font-family: Mulish-Demi !important;
+}
+.font-medium {
+  font-family: Mulish-Medium !important;
+}
+.bg-primary-color {
+  background-color: var(--primary);
+}
+body {
+  font-family: Mulish-regular !important;
 }

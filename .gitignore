@@ -34,3 +34,4 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+cypress/videos/c4gt23MentoringProgram.cy.js.mp4
