@@ -1,4 +1,3 @@
-"use client"
 import "./globals.css";
 import { Footer, Navbar } from "@/component/components";
 import React, { PropsWithChildren } from "react";

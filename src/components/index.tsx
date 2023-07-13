@@ -1,3 +1,4 @@
+"use client"
 export * from './productList/productList';
 export * from './header/header';
 export * from './sidebar';
