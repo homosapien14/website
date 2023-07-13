@@ -46,7 +46,7 @@ export const Header = () => {
         </div>
         <div className="w-full flex-shrink lg:w-1/2 ">
           <Image
-            className="w-full  object-cover"
+            className="w-full sm:h-[250px] md:h-full object-cover"
             src={codeImage}
             alt="Open Source Project Community"
           />
