@@ -9,4 +9,5 @@ function App({ Component, pageProps }: AppProps) {
     </Layout>
   );
 }
+
 export default App;
