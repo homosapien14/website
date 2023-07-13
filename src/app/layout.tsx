@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import "./globals.css";
 import { Footer, Navbar } from "@/component/components";
 import React, { PropsWithChildren } from "react";
@@ -17,6 +17,7 @@ const Layout = ({ children }: PropsWithChildren) => {
       <body>
         <Navbar />
         {children}
+        <hr></hr>
         <Footer />
       </body>
     </html>
