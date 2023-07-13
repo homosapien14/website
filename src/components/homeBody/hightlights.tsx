@@ -7,16 +7,16 @@ export const Hightlights = () => {
       <h1 className="font-bold text-center mb-4 text-color-primary">
         Highlights from C4GT 2022
       </h1>
-      <div className="flex mx-5 flex-col md:flex-row">
-        <div className="text-center bg-primary-color p-5 sm:w-full md:w-1/3">
+      <div className="flex mx-4 sm:mx-5 flex-col md:flex-row">
+        <div className="flex flex-col items-center justify-between bg-primary-color p-4 sm:p-5 w-full md:w-1/3">
           <h3 className="font-bold text-white">Overview</h3>
-          <p className="text-white font-regular mt-1 px-4 leading-relaxed">
+          <div className="text-white sm:text-center text-4 font-regular mt-1 px-4 leading-relaxed">
             The first edition of C4GT was launched in May 2022, and it saw
             participation from 346 applicants out of which 13 were chosen. They
             successfully created 25+ features & wrote 100K lines of code across
             9 key projects.
-          </p>
-          <div className="flex w-1/2 mt-3 items-center text-center mx-auto bg-tertiary-color p-3  cursor-pointer hover:bg-green-700  rounded-lg">
+          </div>
+          <div className="flex w-1/2 mt-3 justify-center items-center text-center mx-auto bg-tertiary-color p-3  cursor-pointer hover:bg-green-700  rounded-lg">
             <a
               className="font-medium text-white no-underline"
               href="https://www.codeforgovtech.in/2022highlights"
@@ -39,10 +39,10 @@ export const Hightlights = () => {
             </svg>
           </div>
         </div>
-        <div className="bg-secondary-color text-center p-5 text-color-primary sm:w-full md:w-1/3">
+        <div className="bg-secondary-color flex flex-col items-center  p-4 sm:p-5 text-color-primary w-full md:w-1/3">
           <h3 className="font-bold">C4GT Mentors</h3>
           <p className="font-regular">Here is what past mentors have to say.</p>
-          <div>
+          <div className="w-full">
             <iframe
               className="w-full h-48 md:h-64"
               src="https://www.youtube.com/embed/8Ji8WwIyn3Y"
@@ -51,16 +51,15 @@ export const Hightlights = () => {
             ></iframe>
           </div>
         </div>
-        <div className="bg-primary-color text-center p-5 text-white sm:w-full md:w-1/3">
-          <h3 className="font-bold">Program Report</h3>
-          <p className="font-regular">Check out C4GT 2022 highlights</p>
-          <div className="ml-6">
+        <div className="bg-primary-color flex flex-col items-center p-4 sm:p-5 text-white w-full md:w-1/3">
+          <h3 className="font-bold text-center">Program Report</h3>
+          <p className="font-regular text-center">Check out C4GT 2022 highlights</p>
+          <div className="w-10/12 h-full">
             <a href="https://drive.google.com/file/d/1n2l_7Njd7_2VGCLrJixBjt7142J3t1q9/view?usp=share_link">
               <Image
+                className="w-full h-full"
                 src={c4gt22Report}
                 alt="c4gt22 report"
-                width={250}
-                height={300}
               />
             </a>
           </div>

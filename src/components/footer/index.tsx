@@ -4,7 +4,7 @@ import { discordIcon, githubLogo, linkedinIcon, youtubeIcon } from "@/component/
 
 export const Footer = () => {
   return (
-    <div className="mx-1.5 sm:flex sm:flex-row-reverse justify-between  sm:pb-6 pt-8 text-black" id="footer">
+    <div className="xs:mx-1.5 sm:mx-5 lg:mx-5 sm:flex sm:flex-row-reverse justify-between  sm:pb-6 lg:mb-5 pt-8 text-black" id="footer">
       <div className="footerBox2 grid grid-row-2 sm:place-items-start place-items-center">
         <h4 className="lg:text-2xl md:text-xl text-lg">Contact Us</h4>
         <p className="lg:text-base md:text-sm text-xs">

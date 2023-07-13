@@ -20,9 +20,9 @@ export const Template: React.FC<TemplateProps> = ({
   data,
 }) => {
   return (
-    <div className="mt-3">
+    <div className="mt-3 mx-0 md:mx-3 mb-5 flex flex-col items-center">
       <h1 className="font-bold text-color-primary mb-4 text-center">{title}</h1>
-      <div className="bg-secondary-color text-color-primary border border-gray-300 shadow-md p-4 mx-auto w-11/12">
+      <div className="bg-secondary-color text-color-primary border border-gray-300 shadow-md p-4 mx-[1.8975rem]">
         {description}
       </div>
       {title !== "C4GT Community Program" ? (
@@ -33,7 +33,7 @@ export const Template: React.FC<TemplateProps> = ({
           </h2>
         </div>
       ) : null}
-      <div className="flex mt-5 mx-2 md:mt-3 flex-col md:flex-row">
+      <div className="flex mt-5 mx-0 md:mx-2 md:mt-3 flex-col md:flex-row">
         {data.map((item, index) => {
           return (
             <div key={index} className="w-full md:w-1/2 p-4 mt-0">
@@ -42,14 +42,14 @@ export const Template: React.FC<TemplateProps> = ({
                   {item.description}
                 </h2>
               )}
-              <ul className="bg-primary-color border w-full rounded-md border-gray-300 h-full md:h-[390px] shadow-lg p-4">
+              <ul className="bg-primary-color border w-full rounded-md border-gray-300 h-full md:h-[35.375rem] lg:h-[26rem] shadow-lg p-4">
                 {item.points.map((point, index) => {
                   return (
-                    <li key={index} className=" items-center">
+                    <li key={index} className="items-center mt-2">
                       <div className="flex item-center">
                         <div>
                           <svg
-                            className="w-10 text-white h-10 "
+                            className="w-6 md:w-10 text-white h-6 md:h-10 "
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             fill="none"

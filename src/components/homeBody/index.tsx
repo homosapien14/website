@@ -16,7 +16,7 @@ export const HomeBody = () => {
         description={communityDescription}
         data={communityContent}
       />
-      <div className="text-center w-48 mx-auto bg-tertiary-color p-3 mb-5  cursor-pointer hover:bg-green-700  rounded-lg">
+      <div className="text-center w-48 mx-auto bg-tertiary-color p-3  mb-5  cursor-pointer hover:bg-green-700  rounded-lg">
         <a
           href="https://github.com/Code4GovTech/C4GT/wiki"
           className="font-medium text-white no-underline"
