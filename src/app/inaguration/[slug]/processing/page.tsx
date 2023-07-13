@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
-import { getProgress } from "@component/api";
+import { getProgress } from "@/component/api";
 import { useRouter } from "next/navigation";
 
 const Processing = () => {

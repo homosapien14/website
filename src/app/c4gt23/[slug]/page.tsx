@@ -1,5 +1,5 @@
 "use client";
-import { getCert } from "@component/api";
+import { getCert } from "@/component/api";
 import React, { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 import { useParams } from "next/navigation";

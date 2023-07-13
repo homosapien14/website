@@ -3,8 +3,8 @@ import { useRouter } from "next/navigation";
 import { useParams } from "next/navigation";
 import jwt_decode from "jwt-decode";
 import { useEffect, useState } from "react";
-import { verifyToken } from "@component/api";
-import useTimer from "@component/hooks/useTimer";
+import { verifyToken } from "@/component/api";
+import useTimer from "@/component/hooks/useTimer";
 
 const Innaguration = () => {
   const [name, setName] = useState();
