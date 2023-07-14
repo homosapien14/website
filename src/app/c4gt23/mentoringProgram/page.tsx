@@ -11,7 +11,7 @@ const C4GT23 = () => {
       <Head>
          <title>Mentoring Program Projects | Code for GovTech</title>
       </Head>
-      <div className={`c4gt23-container  bg-gray-100`}>
+      <div className={`c4gt23-container  bg-white`}>
         <Header />
         <ProductList productList={productList} />
       </div>

@@ -10,13 +10,25 @@
   --white: #ffff;
   --gray: #d3cccc;
   --primary: #05244f;
+  --secondary:#C3395B;
+  --bg-secondary:#E4F9FF;
   --light-gray: #f3f4f6;
 }
 
 body {
   color: var(--white);
-  background-color: var(--light-gray) !important;
+  /* background-color: var(--light-gray) !important; */
   /* background-color: var(--dark) !important; */
+  /* background-image: url("../assets/images/bg.png"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+h1{
+  font-size: 3.5vw;
+}
+h2{
+  font-size: 1.5rem;
 }
 
 @font-face {
@@ -61,6 +73,18 @@ body {
 
 .bg-primary-color {
   background-color: var(--primary);
+}
+.text-color-primary{
+  color:var(--primary);
+}
+.text-color-secondary{
+  color:var(--secondary);
+}
+.bg-secondary-color{
+  background-color: var(--bg-secondary);
+}
+.bg-tertiary-color{
+  background-color: var(--secondary);
 }
 
 body {
