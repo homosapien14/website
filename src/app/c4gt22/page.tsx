@@ -4,7 +4,7 @@ import { HeaderCard, InfoBar, InfoCard, ProjectCard, ContributorCard, MentorCard
 
 const C4GT23 = () => {
     return (
-        <div className="c4gt22-container bg-gray-100">
+        <div className="c4gt22-container bg-white">
             <HeaderCard />
             <InfoBar />
             <InfoCard />

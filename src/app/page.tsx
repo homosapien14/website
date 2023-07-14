@@ -1,12 +1,11 @@
-import styles from "./page.module.css"
+"use client";
+import { HomeBody, HomeHeader } from "@/component/components";
 
 export default function Home() {
   return (
-    <div className={`container flex justify-center items-center flex-col min-h-screen min-w-full ${styles.bodyContainer}`}>
-      <img src="/C4GT.png" width={400} />
-      <h1 className="text-center text-[30px] mt-4 font-bold text-[#294294]">
-        If you are one of the inaugurators, check out the mail for the link
-      </h1>
-    </div>
+    <>
+      <HomeHeader />
+      <HomeBody />
+    </>
   );
 }
