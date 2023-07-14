@@ -42,7 +42,7 @@ export const Template: React.FC<TemplateProps> = ({
                   {item.description}
                 </h2>
               )}
-              <ul className="bg-primary-color border w-full rounded-md border-gray-300 h-full md:h-[35.375rem] lg:h-[26rem] shadow-lg p-4">
+              <ul className="bg-primary-color border w-full rounded-md border-gray-300 h-full md:h-[35.375rem] lg:h-[29rem] shadow-lg p-4">
                 {item.points.map((point, index) => {
                   return (
                     <li key={index} className="items-center mt-2">
@@ -62,10 +62,10 @@ export const Template: React.FC<TemplateProps> = ({
                           </svg>
                         </div>
                         <div className="ml-2">
-                          <h5 className="font-bold text-color-secondary">
+                          <h4 className="font-bold text-color-secondary">
                             {point.title}
-                          </h5>
-                          <p className="text-white font-regular">
+                          </h4>
+                          <p className="text-white text-lg font-regular">
                             {point.text}
                           </p>
                         </div>

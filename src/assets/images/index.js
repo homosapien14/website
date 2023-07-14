@@ -36,6 +36,9 @@ import tibilLogo from './tibilLogo.webp';
 import trushInLogo from './trushInLogo.webp';
 import unstopLogo from './unstopLogo.webp';
 import mentor from './mentor.webp';
+import highlights22 from "./highlights-2022.webp";
+import projectReport22 from "./project-report-2022.webp"
+
 export {
     githubIcon,
     c4gtImage,
@@ -55,6 +58,9 @@ export {
     githubFull,
     SamagraLogo,
     unstopLogo,
-    mentor
+    mentor,
+    highlights22,
+    projectReport22,
 } 
-export const projectPartners =[fideLogo,govLogo,ministryLogo,sanketikaLogo,tarentoLogo,nhaLogo,tech4Dev,tekdiDev,ekStepLogo,shikshaLogo,thoughtWorksLogo,digitalGreerLogo,trushInLogo,avantiLogo,dhiwayLogo,reapBenifitLogo,sahajLogo,samanvayLogo,tibilLogo]
+export const projectPartners =[fideLogo,govLogo,ministryLogo,sanketikaLogo,tarentoLogo,nhaLogo,tech4Dev,tekdiDev,ekStepLogo,shikshaLogo,thoughtWorksLogo,digitalGreerLogo,trushInLogo,avantiLogo,dhiwayLogo,reapBenifitLogo,sahajLogo,samanvayLogo,tibilLogo];
+

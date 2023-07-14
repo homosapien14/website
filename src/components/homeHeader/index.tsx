@@ -4,9 +4,9 @@ import { c4gtImage, oniImage, dgpImage } from "@/component/assets/images";
 
 export const HomeHeader = () => {
   return (
-    <div className="w-full  mt-4 mb-5  relative">
+    <div className="w-full flex mt-4 mb-5  relative">
       <div className="  flex flex-col-reverse text-slate-100 items-center justify-center md:flex-row">
-        <div className="bg-primary-color w-full lg:w-1/4 h-full   p-10 py-10">
+        <div className="bg-primary-color w-full lg:w-1/4  p-10 py-10">
           <h1 className="font-bold text-5xl leading-tight mb-3">
             Your code can impact millions
           </h1>
@@ -30,9 +30,9 @@ export const HomeHeader = () => {
             this is the opportunity for you. Read ahead to know more!
           </p>
         </div>
-        <div className="w-full  flex-shrink lg:w-1/2 h-auto relative ">
+        <div className="w-full  flex-shrink lg:w-1/2  relative ">
           <Image
-            className="w-full md:h-full object-cover"
+            className="w-full h-full object-cover"
             src={c4gtImage}
             alt="c4gt Image"
           />

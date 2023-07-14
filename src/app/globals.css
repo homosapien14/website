@@ -12,9 +12,12 @@
   --primary: #05244f;
   --secondary:#C3395B;
   --bg-secondary:#E4F9FF;
+  --light-gray: #f3f4f6;
 }
+
 body {
   color: var(--white);
+  background-color: var(--light-gray) !important;
   /* background-color: var(--dark) !important; */
   /* background-image: url("../assets/images/bg.png"); */
   background-repeat: no-repeat;
@@ -27,33 +30,41 @@ body {
   src: url("../assets/fonts/Mulish-Bold.ttf");
   font-display: swap;
 }
+
 @font-face {
   font-family: Mulish-demi;
   src: url("../assets/fonts/Mulish-Bold.ttf");
   font-display: swap;
 }
+
 @font-face {
   font-family: Mulish-medium;
   src: url("../assets/fonts/Mulish-Medium.ttf");
   font-display: swap;
 }
+
 @font-face {
   font-family: Mulish-regular;
   src: url("../assets/fonts/Mulish-Regular.ttf");
   font-display: swap;
 }
+
 .font-bold {
   font-family: Mulish-Bold !important;
 }
+
 .font-regular {
   font-family: Mulish-Regular !important;
 }
+
 .font-demi {
   font-family: Mulish-Demi !important;
 }
+
 .font-medium {
   font-family: Mulish-Medium !important;
 }
+
 .bg-primary-color {
   background-color: var(--primary);
 }
@@ -69,6 +80,7 @@ body {
 .bg-tertiary-color{
   background-color: var(--secondary);
 }
+
 body {
   font-family: Mulish-regular !important;
 }
