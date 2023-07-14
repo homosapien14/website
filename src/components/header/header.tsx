@@ -1,15 +1,15 @@
 import React from "react";
 import styles from "./header.module.css";
 import Image from "next/image";
-import {githubIcon, codeImage} from "@/component/assets/images";
+import { githubIcon, codeImage } from "@/component/assets/images";
 
 
 export const Header = () => {
   return (
     <div
-      className={`${styles.container}  mx-auto px-3 mt-4 sm:px-6 lg:px-8`}
+      className={`${styles.container} w-full lg:w-11/12 mx-auto mt-5`}
     >
-      <div className=" bg-primary-color flex flex-col-reverse text-slate-100 items-center justify-between md:flex-row">
+      <div className="bg-primary-color flex flex-col-reverse text-slate-100 items-center justify-between md:flex-row lg:rounded-md overflow-hidden">
         <div className="w-full lg:w-1/2  p-8 py-6">
           <h1 className="font-bold text-5xl leading-tight mb-3">Mentoring Program Projects</h1>
           <p className="font-regular text-lg leading-relaxed mb-4">
@@ -27,7 +27,7 @@ export const Header = () => {
             rel="noopener noreferrer"
             style={{ textDecoration: "none" }}
           >
-            <Image className="mr-2" width={30} height={30} src={githubIcon} alt='github-icon'/>
+            <Image className="mr-2" width={30} height={30} src={githubIcon} alt='github-icon' />
             Explore Here
             <svg
               aria-hidden="true"
