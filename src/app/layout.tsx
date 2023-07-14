@@ -13,6 +13,9 @@ export const metadata: Metadata = {
 const Layout = ({ children }: PropsWithChildren) => {
   return (
     <html lang="en">
+      <head>
+        <link rel='icon' href='/favicon.ico' sizes="any"/>
+      </head>
       <body>
         <Navbar />
         {children}
