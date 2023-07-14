@@ -38,7 +38,7 @@ import unstopLogo from './unstopLogo.webp';
 import mentor from './mentor.webp';
 import highlights22 from "./highlights-2022.webp";
 import projectReport22 from "./project-report-2022.webp"
-
+import favicon from './favicon.png';
 export {
     githubIcon,
     c4gtImage,
@@ -61,6 +61,7 @@ export {
     mentor,
     highlights22,
     projectReport22,
+    favicon
 } 
 export const projectPartners =[fideLogo,govLogo,ministryLogo,sanketikaLogo,tarentoLogo,nhaLogo,tech4Dev,tekdiDev,ekStepLogo,shikshaLogo,thoughtWorksLogo,digitalGreerLogo,trushInLogo,avantiLogo,dhiwayLogo,reapBenifitLogo,sahajLogo,samanvayLogo,tibilLogo];
 
