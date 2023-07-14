@@ -16,7 +16,7 @@ export const Hightlights = () => {
             successfully created 25+ features & wrote 100K lines of code across
             9 key projects.
           </div>
-          <div className="flex w-1/2 mt-5 justify-center items-center text-center mx-auto bg-tertiary-color p-3  cursor-pointer hover:bg-green-700  rounded-lg">
+          <div className="flex mt-5 mb-4 justify-center items-center text-center mx-auto bg-tertiary-color p-3  cursor-pointer hover:bg-green-700  rounded-lg">
             <a
               className="font-medium text-white no-underline"
               href="https://www.codeforgovtech.in/2022highlights"

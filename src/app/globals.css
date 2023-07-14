@@ -10,8 +10,8 @@
   --white: #ffff;
   --gray: #d3cccc;
   --primary: #05244f;
-  --secondary:#C3395B;
-  --bg-secondary:#E4F9FF;
+  --secondary: #c3395b;
+  --bg-secondary: #e4f9ff;
   --light-gray: #f3f4f6;
 }
 
@@ -24,10 +24,10 @@ body {
   background-position: center;
   background-size: cover;
 }
-h1{
-  font-size: 3.5vw;
+h1 {
+  font-size: 3rem;
 }
-h2{
+h2 {
   font-size: 1.5rem;
 }
 
@@ -74,16 +74,16 @@ h2{
 .bg-primary-color {
   background-color: var(--primary);
 }
-.text-color-primary{
-  color:var(--primary);
+.text-color-primary {
+  color: var(--primary);
 }
-.text-color-secondary{
-  color:var(--secondary);
+.text-color-secondary {
+  color: var(--secondary);
 }
-.bg-secondary-color{
+.bg-secondary-color {
   background-color: var(--bg-secondary);
 }
-.bg-tertiary-color{
+.bg-tertiary-color {
   background-color: var(--secondary);
 }
 
