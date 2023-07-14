@@ -24,6 +24,12 @@ body {
   background-position: center;
   background-size: cover;
 }
+h1{
+  font-size: 3.5vw;
+}
+h2{
+  font-size: 1.5rem;
+}
 
 @font-face {
   font-family: Mulish-bold;

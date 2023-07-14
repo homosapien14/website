@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const Hightlights = () => {
   return (
-    <div className="mt-5 w-11/12 mx-auto h-full">
+    <div className="mt-5 w-11/12 mx-auto my-8 h-full">
       <h1 className="font-bold text-center mb-4 text-color-primary">
         Highlights from C4GT 2022
       </h1>

@@ -1,6 +1,7 @@
 import { mentor } from "@/component/assets/images";
 import Image from "next/image";
 import React from "react";
+import style from './template.module.css';
 
 interface TemplateProps {
   data: {
@@ -20,29 +21,29 @@ export const Template: React.FC<TemplateProps> = ({
   data,
 }) => {
   return (
-    <div className="mt-3 w-11/12 mx-auto my-8 h-full flex flex-col items-center">
-      <h1 className="font-bold text-color-primary mb-4 mt-8 text-center">{title}</h1>
+    <div className={`${title.includes("Community")?style.container2:style.container} w-11/12 mx-auto h-full flex flex-col items-center`}>
+      <h1 className="font-bold text-color-primary mb-4 text-center">{title}</h1>
       <div className="bg-secondary-color text-color-primary border border-gray-300 shadow-md p-4 mx-[1.8975rem]">
         {description}
       </div>
       {title !== "C4GT Community Program" ? (
-        <div className="flex w-11/12  mt-5 mx-auto justify-center items-center">
+        <div className="flex w-11/12  mt-9 mx-auto justify-center items-center">
           <Image src={mentor} alt="mentor icon" width={57} height={40} />
           <h2 className="text-center font-bold text-color-primary">
             Why should you apply to the Mentoring Program ?
           </h2>
         </div>
       ) : null}
-      <div className="flex mt-5 mx-0 md:mx-2 md:mt-3 flex-col md:flex-row">
+      <div className="flex mt-2 mx-0 md:mx-2 md:mt-3 flex-col md:flex-row">
         {data.map((item, index) => {
           return (
-            <div key={index} className="w-full md:w-1/2 p-4 mt-0">
+            <div key={index} className="w-full mt-3 md:w-1/2 p-4 mt-0">
               {item.description === "" ? null : (
                 <h2 className="font-bold mb-4 text-center text-color-primary">
                   {item.description}
                 </h2>
               )}
-              <ul className="bg-primary-color border w-full rounded-md border-gray-300 h-full shadow-lg p-4 flex justify-center flex-col">
+              <ul className="bg-primary-color border  w-full rounded-md border-gray-300 h-full shadow-lg p-4 flex justify-center flex-col">
                 {item.points.map((point, index) => {
                   return (
                     <li key={index} className="items-center mt-2">
@@ -65,7 +66,7 @@ export const Template: React.FC<TemplateProps> = ({
                           <h4 className="font-bold text-color-secondary">
                             {point.title}
                           </h4>
-                          <p className="text-white text-lg font-regular">
+                          <p className="text-white xs:text-sm sm:text-lg font-regular">
                             {point.text}
                           </p>
                         </div>
