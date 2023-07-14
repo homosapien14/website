@@ -36,7 +36,7 @@ export const HomeHeader = () => {
             src={c4gtImage}
             alt="c4gt Image"
           />
-          <div className=" absolute xs:bottom-14 sm:bottom-20 md:bottom-16 lg:bottom-24 xs:right-2 sm:right-0  flex flex-col items-center ">
+          <div className=" absolute xs:bottom-12 sm:bottom-20 md:bottom-16 lg:bottom-24 xs:right-2 sm:right-0  flex flex-col items-center ">
             <h6 className="text-color-primary font-bold">Knowledge Partner</h6>
             <div className="flex">
             <Image

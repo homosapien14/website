@@ -20,8 +20,8 @@ export const Template: React.FC<TemplateProps> = ({
   data,
 }) => {
   return (
-    <div className="mt-3 mx-0 md:mx-3 mb-5 flex flex-col items-center">
-      <h1 className="font-bold text-color-primary mb-4 text-center">{title}</h1>
+    <div className="mt-3 w-11/12 mx-auto my-8 h-full flex flex-col items-center">
+      <h1 className="font-bold text-color-primary mb-4 mt-8 text-center">{title}</h1>
       <div className="bg-secondary-color text-color-primary border border-gray-300 shadow-md p-4 mx-[1.8975rem]">
         {description}
       </div>
@@ -42,7 +42,7 @@ export const Template: React.FC<TemplateProps> = ({
                   {item.description}
                 </h2>
               )}
-              <ul className="bg-primary-color border w-full rounded-md border-gray-300 h-full md:h-[35.375rem] lg:h-[29rem] shadow-lg p-4">
+              <ul className="bg-primary-color border w-full rounded-md border-gray-300 h-full shadow-lg p-4 flex justify-center flex-col">
                 {item.points.map((point, index) => {
                   return (
                     <li key={index} className="items-center mt-2">
