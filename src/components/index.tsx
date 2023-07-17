@@ -20,3 +20,6 @@ export * from './c4gt22/projectCard';
 export * from './c4gt22/projectCard/projectList';
 export * from './c4gt22/contributorCard';
 export * from './c4gt22/mentorCard';
+
+// C4GT 2023 page components
+export * from './c4gt23/infoBar23';

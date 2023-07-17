@@ -38,10 +38,10 @@ export const Navbar = () => {
   }, [dropdownOpen]);
 
   const isActive = (path: string) => {
-    if(path!=="/"){
+    if (path !== "/") {
       return (pathName.startsWith(path) ? "text-red-700" : "");
     }
-    return path==pathName?"text-red-700":"";
+    return path == pathName ? "text-red-700" : "";
   };
 
   return (
@@ -72,13 +72,17 @@ export const Navbar = () => {
             <div
               ref={dropdownRef}
               onClick={() => setDropdownOpen(!dropdownOpen)}
-              className="block py-2 pr-4 text-inherit no-underline rounded flex items-center"
+              className="py-2 pr-4 text-inherit no-underline rounded flex items-center"
             >
-              <span>C4GT 2023</span>
+              <Link
+                className="block text-inherit hover:text-red-700 no-underline rounded "
+                href="/c4gt23"
+              >
+                C4GT 2023
+              </Link>
               <FiChevronDown
-                className={`ml-1 inline-block transform ${
-                  dropdownOpen ? "rotate-180" : ""
-                }`}
+                className={`ml-1 inline-block transform ${dropdownOpen ? "rotate-180" : ""
+                  }`}
               />
             </div>
             {dropdownOpen && (
@@ -88,7 +92,7 @@ export const Navbar = () => {
                     <Link
                       className="no-underline text-inherit"
                       href="/c4gt23/communityProgram"
-                      onClick={()=>setDropdownOpen(!dropdownOpen)}
+                      onClick={() => setDropdownOpen(!dropdownOpen)}
                     >
                       Community Program Project
                     </Link>
@@ -97,7 +101,7 @@ export const Navbar = () => {
                     <Link
                       className="no-underline text-inherit"
                       href="/c4gt23/mentoringProgram"
-                      onClick={()=>setDropdownOpen(!dropdownOpen)}
+                      onClick={() => setDropdownOpen(!dropdownOpen)}
                     >
                       Mentoring Program Project
                     </Link>
@@ -185,9 +189,8 @@ export const Navbar = () => {
                 >
                   <span className=" text-sm text-inherit font-semibold" >C4GT 2023</span>
                   <FiChevronDown
-                    className={`ml-1 inline-block transform ${
-                      dropdownOpen ? "rotate-180" : ""
-                    }`}
+                    className={`ml-1 inline-block transform ${dropdownOpen ? "rotate-180" : ""
+                      }`}
                   />
                 </div>
                 {dropdownOpen && (
@@ -200,7 +203,7 @@ export const Navbar = () => {
                         <Link
                           className="no-underline text-color-primary hover:text-red-700"
                           href="/c4gt23/communityProgram"
-                          onClick={()=>setDropdownOpen(!dropdownOpen)}
+                          onClick={() => setDropdownOpen(!dropdownOpen)}
                         >
                           Community Program Project
                         </Link>
@@ -209,7 +212,7 @@ export const Navbar = () => {
                         <Link
                           className="no-underline text-color-primary hover:text-red-700"
                           href="/c4gt23/mentoringProgram"
-                          onClick={()=>setDropdownOpen(!dropdownOpen)}
+                          onClick={() => setDropdownOpen(!dropdownOpen)}
                         >
                           Mentoring Program Project
                         </Link>

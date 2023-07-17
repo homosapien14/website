@@ -1,7 +1,7 @@
 import React from "react";
+import { InfoIcon } from "./infoIcon";
 
 // importing required icons
-import { InfoIcon } from "./infoIcon";
 import { GrDocument } from "react-icons/gr";
 import { HiOutlineUsers } from "react-icons/hi2";
 import { AiOutlineFundProjectionScreen } from "react-icons/ai";

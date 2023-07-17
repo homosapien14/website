@@ -34,7 +34,7 @@ export const MentorCard = () => {
                         {
                             mentorsList.map((mentor, index) => (
                                 <div className="flex flex-col items-center mx-auto overflow-hidden w-3/4" key={index}>
-                                    <img className="w-72 h-72 object-cover mb-4 hover:scale-105 transition-all duration-200 ease-in hover:ease-out rounded-md" src={`./assets/mentors/${mentor.imageName}`} alt="" />
+                                    <img className="w-72 h-72 object-cover mb-4 hover:scale-105 transition-all duration-200 ease-in hover:ease-out rounded-md" src={`./assets/c4gt22/mentors/${mentor.imageName}`} alt="" />
                                     <div className="w-72 h-24 flex-col items-center flex">
                                         <span className="font-bold text-xl text-black">{mentor.name}</span>
                                         <span className="font-medium text-sm text-center text-black w-3/5">{mentor.description}</span>
