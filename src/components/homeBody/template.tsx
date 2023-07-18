@@ -37,7 +37,7 @@ export const Template: React.FC<TemplateProps> = ({
       <div className="flex mt-2 mx-0 md:mx-2 md:mt-3 flex-col md:flex-row">
         {data.map((item, index) => {
           return (
-            <div key={index} className="w-full mt-3 md:w-1/2 p-4 mt-0">
+            <div key={index} className="w-full md:w-1/2 p-4">
               {item.description === "" ? null : (
                 <h2 className="font-bold mb-4 text-center text-color-primary">
                   {item.description}

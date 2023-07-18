@@ -36,8 +36,13 @@ import tibilLogo from './tibilLogo.webp';
 import trushInLogo from './trushInLogo.webp';
 import unstopLogo from './unstopLogo.webp';
 import mentor from './mentor.webp';
+
+// c4gt-22 home page
 import highlights22 from "./highlights-2022.webp";
 import projectReport22 from "./project-report-2022.webp"
+
+// c4gt-23 home page
+import highlights23 from "./highlights-2023.webp";
 
 export {
     githubIcon,
@@ -61,6 +66,8 @@ export {
     mentor,
     highlights22,
     projectReport22,
-} 
-export const projectPartners =[fideLogo,govLogo,ministryLogo,sanketikaLogo,tarentoLogo,nhaLogo,tech4Dev,tekdiDev,ekStepLogo,shikshaLogo,thoughtWorksLogo,digitalGreerLogo,trushInLogo,avantiLogo,dhiwayLogo,reapBenifitLogo,sahajLogo,samanvayLogo,tibilLogo];
+    highlights23
+}
+
+export const projectPartners = [fideLogo, govLogo, ministryLogo, sanketikaLogo, tarentoLogo, nhaLogo, tech4Dev, tekdiDev, ekStepLogo, shikshaLogo, thoughtWorksLogo, digitalGreerLogo, trushInLogo, avantiLogo, dhiwayLogo, reapBenifitLogo, sahajLogo, samanvayLogo, tibilLogo];
 
