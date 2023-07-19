@@ -45,7 +45,7 @@ export const Form: React.FC = () => {
     <>
       <Header />
       <div className="container w-1/2 lg:w-2/3 z-30 mx-auto mt-6 lg:-mt-6 mb-16">
-        <div className="lg:w-2/3 z-30 mx-auto bg-white p-6 lg:p-10 border rounded-lg relative bg-whiteshadow-lg ">
+        <div className="lg:w-2/3 z-30 mx-auto bg-white p-6 lg:p-10 border rounded-lg relative bg-whiteshadow-lg drop-shadow-lg">
           <div className="flex md:justify-between md:items-center flex-col md:flex-row mb-6">
             <h1 className="text-sm text-slate-600 font-medium ">
               User Profile
