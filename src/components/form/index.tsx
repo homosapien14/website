@@ -1,49 +1,40 @@
 import React, { useState, useEffect } from "react";
 import InputField from "./inputField";
-import Header from "./header";
+import FormHeader from "./formHeader";
 
 export const Form: React.FC = () => {
-  const [name, setName] = useState("");
-  const [college, setCollege] = useState("");
-  const [degree, setDegree] = useState("");
-  const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
-  const [discord, setDiscord] = useState("");
-  const [github, setGithub] = useState("");
-  const [openSourceExp, setOpenSourceExp] = useState("No");
+  const [userData, setUserData] = useState({
+    name: "",
+    college: "",
+    degree: "",
+    email: "",
+    phone: "",
+    discord: "",
+    github: "",
+    openSourceExp: "No",
+  });
 
   useEffect(() => {
     const savedDraft = localStorage.getItem("draftData");
     if (savedDraft) {
       const parsedDraft = JSON.parse(savedDraft);
-      setName(parsedDraft.name);
-      setName(parsedDraft.college);
-      setName(parsedDraft.degree);
-      setName(parsedDraft.email);
-      setName(parsedDraft.phone);
-      setName(parsedDraft.discord);
-      setName(parsedDraft.github);
-      setName(parsedDraft.openSourceExp);
+      setUserData(parsedDraft);
     }
   }, []);
 
-  const saveDraft = () => {
-    const draftData = {
-      name,
-      college,
-      degree,
-      email,
-      phone,
-      discord,
-      github,
-      openSourceExp,
-    };
+  const saveDraft = (event) => {
+    event.preventDefault();
+    const draftData = userData;
     localStorage.setItem("draftData", JSON.stringify(draftData));
+    alert("Your Data is saved");
   };
-
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    console.log(userData);
+  };
   return (
     <>
-      <Header />
+      <FormHeader />
       <div className="container w-3/5 lg:w-2/3 z-30 mx-auto mt-6 lg:-mt-6 mb-16">
         <div className="lg:w-2/3 z-30 mx-auto bg-white p-6 lg:p-10 border rounded-lg relative bg-whiteshadow-lg drop-shadow-lg">
           <div className="flex md:justify-between md:items-center flex-col md:flex-row mb-6">
@@ -51,7 +42,10 @@ export const Form: React.FC = () => {
               User Profile
             </h1>
             <div className="flex items-center">
-              <button className="bg-rose-800 hover:bg-green-600 text-white py-2 px-4 rounded ">
+              <button
+                className="bg-rose-800 hover:bg-green-600 text-white py-2 px-4 rounded "
+                onClick={handleSubmit}
+              >
                 Submit
               </button>
               <button
@@ -69,58 +63,82 @@ export const Form: React.FC = () => {
             id="name"
             label="Name*"
             type="text"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
+            value={userData.name}
+            onChange={(e)=>setUserData({
+              ...userData,
+              name: e.target.value,
+            })}
           />
           <InputField
             id="college"
             label="College/Organisation name*"
             type="text"
-            value={college}
-            onChange={(e) => setCollege(e.target.value)}
+            value={userData.college}
+            onChange={(e)=>setUserData({
+              ...userData,
+              college: e.target.value,
+            })}
           />
           <InputField
             id="degree"
             label="Degree*"
             type="text"
-            value={degree}
-            onChange={(e) => setDegree(e.target.value)}
+            value={userData.degree}
+            onChange={(e)=>setUserData({
+              ...userData,
+              degree: e.target.value,
+            })}
           />
           <InputField
             id="email"
             label="Email*"
             type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
+            value={userData.email}
+            onChange={(e)=>setUserData({
+              ...userData,
+              email: e.target.value,
+            })}
           />
           <InputField
             id="phone-number"
             label="Phone number*"
             type="tel"
-            value={phone}
-            onChange={(e) => setPhone(e.target.value)}
+            value={userData.phone}
+            onChange={(e)=>setUserData({
+              ...userData,
+              phone: e.target.value,
+            })}
           />
           <InputField
             id="discord-id"
             label="Discord ID (Optional)"
             type="text"
-            value={discord}
-            onChange={(e) => setDiscord(e.target.value)}
+            value={userData.discord}
+            onChange={(e)=>setUserData({
+              ...userData,
+              discord: e.target.value,
+            })}
           />
           <InputField
             id="github-id"
             label="GitHub ID (Optional)"
             type="text"
-            value={github}
-            onChange={(e) => setGithub(e.target.value)}
+            value={userData.github}
+            onChange={(e)=>setUserData({
+              ...userData,
+              github: e.target.value,
+            })}
           />
           <div className="mb-4">
             <label className="block font-regular mb-1">
               Experience in open-source
             </label>
             <select
-              value={openSourceExp}
-              onChange={(e) => setOpenSourceExp(e.target.value)}
+              value={userData.openSourceExp}
+              onChange={(e)=>setUserData({
+                ...userData,
+                openSourceExp: e.target.value,
+              })}
               className="block w-full border border-gray-300 rounded py-2 px-3 focus:outline-none focus:border-blue-500"
             >
               <option value="Yes" className="font-regular">
@@ -132,7 +150,10 @@ export const Form: React.FC = () => {
             </select>
           </div>
           <div className="flex mt-6 items-center">
-            <button className="bg-rose-800 hover:bg-green-600 text-white py-2 px-4 rounded ">
+            <button
+              className="bg-rose-800 hover:bg-green-600 text-white py-2 px-4 rounded "
+              onClick={handleSubmit}
+            >
               Submit
             </button>
             <button
