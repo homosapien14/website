@@ -150,6 +150,18 @@ export const Navbar = () => {
               Digital Public Goods
             </Link>
           </li>
+          <li
+            className={`lg:px-4 sm:px-3 cursor-pointer hover:text-red-700 ${isActive(
+              "/digitalPublicGoods"
+            )}`}
+          >
+            <Link
+              href="/apply"
+              className="block py-2 pr-4   text-inherit no-underline rounded hover:text-red-700 "
+            >
+              Apply
+            </Link>
+          </li>
         </ul>
       </div>
       <div className="md:hidden absolute z-10 inset-y-0 right-0">
@@ -251,6 +263,14 @@ export const Navbar = () => {
                   href="/digitalPublicGoods"
                 >
                   Digital Public Goods
+                </Link>
+              </li>
+              <li className="cursor-pointer mb-4 hover:text-red-700 border-b-2">
+                <Link
+                  className="block py-2 pr-4 text-sm text-inherit font-semibold  no-underline rounded "
+                  href="/apply"
+                >
+                  Apply
                 </Link>
               </li>
             </ul>
