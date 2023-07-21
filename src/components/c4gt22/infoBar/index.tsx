@@ -1,5 +1,5 @@
 import React from "react";
-import { InfoIcon } from "@/component/components/C4GT22/infoBar/infoIcon";
+import { InfoIcon } from "./infoIcon";
 
 // importing required icons
 import { GrDocument } from "react-icons/gr";
