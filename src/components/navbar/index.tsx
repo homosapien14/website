@@ -39,7 +39,7 @@ export const Navbar = () => {
 
   const isActive = (path: string) => {
     if (path !== "/") {
-      return (pathName.startsWith(path) ? "text-red-700" : "");
+      return pathName.startsWith(path) ? "text-red-700" : "";
     }
     return path == pathName ? "text-red-700" : "";
   };
@@ -81,8 +81,9 @@ export const Navbar = () => {
                 C4GT 2023
               </Link>
               <FiChevronDown
-                className={`ml-1 inline-block transform ${dropdownOpen ? "rotate-180" : ""
-                  }`}
+                className={`ml-1 inline-block transform ${
+                  dropdownOpen ? "rotate-180" : ""
+                }`}
               />
             </div>
             {dropdownOpen && (
@@ -133,6 +134,18 @@ export const Navbar = () => {
               className="block py-2 pr-4   text-inherit no-underline rounded "
             >
               Digital Public Goods
+            </Link>
+          </li>
+          <li
+            className={`lg:px-4 sm:px-3 cursor-pointer hover:text-red-700 ${isActive(
+              "/leaderboard"
+            )}`}
+          >
+            <Link
+              href="/leaderboard"
+              className="block py-2 pr-4   text-inherit no-underline rounded "
+            >
+              Leaderboard
             </Link>
           </li>
         </ul>
@@ -187,10 +200,13 @@ export const Navbar = () => {
                   onClick={() => setDropdownOpen(!dropdownOpen)}
                   className="block py-2 pr-4 text-inherit font-semibold  no-underline rounded flex items-center"
                 >
-                  <span className=" text-sm text-inherit font-semibold" >C4GT 2023</span>
+                  <span className=" text-sm text-inherit font-semibold">
+                    C4GT 2023
+                  </span>
                   <FiChevronDown
-                    className={`ml-1 inline-block transform ${dropdownOpen ? "rotate-180" : ""
-                      }`}
+                    className={`ml-1 inline-block transform ${
+                      dropdownOpen ? "rotate-180" : ""
+                    }`}
                   />
                 </div>
                 {dropdownOpen && (
@@ -236,6 +252,14 @@ export const Navbar = () => {
                   href="/digitalPublicGoods"
                 >
                   Digital Public Goods
+                </Link>
+              </li>
+              <li className="cursor-pointer mb-4 hover:text-red-700 border-b-2">
+                <Link
+                  className="block py-2 pr-4 text-sm text-inherit font-semibold  no-underline rounded "
+                  href="/leaderboard"
+                >
+                  Leaderboard
                 </Link>
               </li>
             </ul>
