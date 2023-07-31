@@ -41,7 +41,7 @@ const LeaderBoard = () => {
             leaderboardData?.map((data, index) => (
               <tr className="bg-white border-b">
                 <td className="px-6 py-4 text-black">{index + 1}</td>
-                <td className="px-6 py-4 text-[#3d74cb] underline">
+                <td className="px-6 py-4 text-[#224987] underline">
                   <a href={data?.github_url}>{data?.github_url?.slice("19")}</a>
                 </td>
                 <td className="px-6 py-4 text-black">{data?.points}</td>
