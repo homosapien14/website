@@ -30,6 +30,9 @@ const LeaderBoard = () => {
             <th scope="col" className="px-6 py-3">
               Badges
             </th>
+            <th scope="col" className="px-6 py-3 text-center">
+              Level
+            </th>
           </tr>
         </thead>
         <tbody>
@@ -38,11 +41,11 @@ const LeaderBoard = () => {
             leaderboardData?.map((data, index) => (
               <tr className="bg-white border-b">
                 <td className="px-6 py-4 text-black">{index + 1}</td>
-                <td className="px-6 py-4 text-[#6ba3fc] underline">
+                <td className="px-6 py-4 text-[#3d74cb] underline">
                   <a href={data?.github_url}>{data?.github_url?.slice("19")}</a>
                 </td>
                 <td className="px-6 py-4 text-black">{data?.points}</td>
-                <td className="flex my-2 px-2">
+                <td className="flex my-2 px-2 min-w-[250px]">
                   {data?.apprentice_badge && (
                     <img
                       src="/assets/badges/Apprentice.png"
@@ -78,6 +81,17 @@ const LeaderBoard = () => {
                       src="/assets/badges/RisingStar.png"
                       className="w-[50px] rounded-full"
                     />
+                  )}
+                </td>
+                <td className="px-6 py-4 text-black text-center min-w-[150px]">
+                  {data?.points >= 100 && (
+                    <div className="rounded-full bg-gray-200 py-2">Level 3</div>
+                  )}
+                  {data?.points < 100 && data?.points >= 50 && (
+                    <div className="rounded-full bg-green-200 py-2">Level 2</div>
+                  )}
+                  {data?.points < 50 && data?.points >= 10 && (
+                    <div className="rounded-full bg-yellow-200 py-2">Level 1</div>
                   )}
                 </td>
               </tr>
