@@ -37,12 +37,12 @@ const LeaderBoard = () => {
             leaderboardData?.length > 0 &&
             leaderboardData?.map((data, index) => (
               <tr className="bg-white border-b">
-                <td className="px-6 py-4">{index + 1}</td>
-                <td className="px-6 py-4">
+                <td className="px-6 py-4 text-black">{index + 1}</td>
+                <td className="px-6 py-4 text-color-primary">
                   <a href={data?.github_url}>{data?.github_url?.slice("19")}</a>
                 </td>
-                <td className="px-6 py-4">{data?.points}</td>
-                <td className="flex my-2">
+                <td className="px-6 py-4 text-black">{data?.points}</td>
+                <td className="flex my-2 px-2">
                   {data?.apprentice_badge && (
                     <img
                       src="/assets/badges/Apprentice.png"
